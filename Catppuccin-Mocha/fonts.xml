@@ -43,6 +43,9 @@
   <fontDef name="alphabeta-blue" ref="alphabeta" color="#AACFFF"/>
   <fontDef name="alphabeta-orange-shadow" ref="alphabeta" color="#FF9900"/>
   <fontDef name="alphabeta-battle" ref="alphabeta" color="#FFFF00"/>
+  <fontDef name="alphabeta-catppuccin-yellow" ref="alphabeta" color="#f9e2af"/>
+  <fontDef name="alphabeta-catppuccin-yellow" ref="alphabeta" color="#f0cf81"/>
+  <fontDef name="alphabeta-catppuccin-yellow2" ref="alphabeta" color="#f4fc9a"/>
   <fontDef name="alphabeta-orange" ref="alphabeta" color="#FF9900"/>
 	<fontDef name="alphabeta-lightgreen" ref="alphabeta" color="#66FF66"/>
 	<fontDef name="alphabeta-purple" ref="alphabeta" color="#FF99FF"/>
@@ -114,10 +117,12 @@
       <fontParam if="disabled" color="#CCC"/>
   </fontDef>
 
-  <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#484848"/>
+  <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#484848"/>
 
   <fontDef name="title-font" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1"/>
   <fontDef name="title-font-black" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#252525" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
+  <!-- Added custom color for tooltip title -->
+  <fontDef name="title-font-rosewater" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#f5e0dc" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
 
   <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"/>
 

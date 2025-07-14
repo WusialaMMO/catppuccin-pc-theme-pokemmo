@@ -57,10 +57,10 @@
 						<param name="whisper"><font>alphabeta-lightgreen</font></param>
 						<param name="trade"><font>alphabeta-purple</font></param>
 						<param name="global"><font>alphabeta-teal</font></param>
-						<param name="channel"><font>alphabeta-yellow</font></param>
+						<param name="channel"><font>alphabeta-catppuccin-yellow</font></param>
 						<param name="team"><font>alphabeta-brown</font></param>
 						<param name="system"><font>alphabeta-blue</font></param>
-						<param name="battle"><font>alphabeta-battle</font></param>
+						<param name="battle"><font>alphabeta-catppuccin-yellow2</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
 					<param name="images"><map>
