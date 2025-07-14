@@ -21,8 +21,11 @@
 	Capital letters should be replaced with lowercases, starting with an underscore. e.g. "magFilter" should be "mag_filter"
 	-->
 
-  <fontDef name="battle" filename="res/fonts/battle.ttf" color="#cdd6f4" shadow_offset_x="1" shadow_offset_y="1"
-           shadow_color="#CC000000" size="48" hinting="Full"/>
+  <!-- <fontDef name="battle" filename="res/fonts/battle.ttf" color="#cdd6f4" shadow_offset_x="1" shadow_offset_y="1"
+           shadow_color="#CC000000" size="48" hinting="Full"/> -->
+  <fontDef name="battle" filename="res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"
+           shadow_color="#CC000000" size="28" hinting="Full"/>
+
   <fontDef name="braille" ref="battle" color="#000000"/>
 
   <fontDef name="alphabeta" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12"
@@ -101,7 +104,8 @@
 
   <fontDef name="noto-8pt" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" border_width="1" border_color="#434343" size="8" incremental="false" characters="0123456789ABCDEF"/>
 
-  <fontDef name="noto-bold-large-white" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#282828"/>
+  <fontDef name="noto-bold-large-white" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"/>
+  <fontDef name="noto-bold-large-white-orig" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"/>
 
 
   <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>

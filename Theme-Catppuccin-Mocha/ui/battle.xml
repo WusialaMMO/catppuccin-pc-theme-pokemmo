@@ -194,7 +194,7 @@
 
 	<!-- Item Icon -->
 	<theme name="battle-item-pic" ref="label" allowWildcard="true">
-		<param name="background"><image>editfield.background</image></param>
+		<param name="background"><image>label-transparent.background</image></param>
 	</theme>
 
 	<!-- <theme name="battle-frame" ref="-defaults" allowWildcard="true">
