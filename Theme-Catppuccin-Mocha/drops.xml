@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<images file="res/water-levels-fixed.png" filter="nearest">
+		<area name="teardrop" xywh="3,3,8,11"/>
+		<area name="teardrop.warning" xywh="13,3,8,11"/>
+		<area name="teardrop.empty" xywh="23,3,8,11"/>
+		<area name="teardrop.blue" xywh="33,3,8,11"/>
+		<area name="water-level.background" xywh="3,22,41,42" splitx="L32,R5" splity="T32,B5" inset="-27,-27,0,0"/>
+		<area name="water-level.warning" xywh="53,22,41,42" splitx="L32,R5" splity="T32,B5" inset="-27,-27,0,0"/>
+
+		<composed name="water-level.dry.basic">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-22,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,14,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+		<composed name="water-level.dry.red">
+			<alias ref="water-level.warning" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.warning" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.warning" center="true" inset="20,-22,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.warning" center="true" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.warning" center="true" inset="20,14,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.warning" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+
+		<animation name="water-level.dry" timeSource="enabled">
+			<frame duration="400" ref="water-level.dry.red" tint="#FFFFFFFF"/>
+			<frame duration="400" ref="water-level.dry.red" tint="#8a0606"/>
+		</animation>
+
+		<composed name="water-level.1">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,-22,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,14,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+		<composed name="water-level.2">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-22,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,14,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+		<composed name="water-level.3">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-22,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-4,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,14,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+		<composed name="water-level.4">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-22,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-4,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,14,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop.empty" center="true" inset="20,32,-20,4" tint="#FFFFFF"/>
+		</composed>
+		<composed name="water-level.5">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-40,-20,4" tint="#FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-22,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,-4,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,14,-20,4" tint="#FFFFFFFF"/>
+			<alias ref="teardrop" center="true" inset="20,32,-20,4" tint="#FFFFFFFF"/>
+		</composed>
+
+		<composed name="water-level.blue">
+			<alias ref="water-level.background" inset="20,-4,-20,4" tint="#FF3186c9"/>
+			<alias ref="teardrop.blue" center="true" inset="20,-40,-20,4" tint="#FF3186c9"/>
+			<alias ref="teardrop.blue" center="true" inset="20,-22,-20,4" tint="#FF3186c9"/>
+			<alias ref="teardrop.blue" center="true" inset="20,-4,-20,4" tint="#FF3186c9"/>
+			<alias ref="teardrop.blue" center="true" inset="20,14,-20,4" tint="#FF3186c9"/>
+			<alias ref="teardrop.blue" center="true" inset="20,32,-20,4" tint="#FF3186c9"/>
+		</composed>
+
+  </images>
+  <theme name="nameplategui" ref="-defaults">
+		<theme name="nameplate-staff" ref="-defaults" allowWildcard="true">
+			<param name="background"><image>label2.background</image></param>
+			<param name="font"><font>alphabeta-border</font></param>
+			<param name="maxHeight"><int>16</int></param>
+			<param name="border"><border>0,0,2,3</border></param>
+		</theme>
+
+		<theme name="nameplate" ref="-defaults" allowWildcard="true">
+			<theme name="widget" ref="-defaults"/>
+			<theme name="moisture-level0" ref="-defaults">
+				<param name="background"><image>water-level.dry</image></param>
+				<param name="minWidth"><int>50</int></param>
+				<param name="minHeight"><int>15</int></param>
+			</theme>
+			<theme name="moisture-level1" ref="-defaults">
+				<param name="background"><image>water-level.1</image></param>
+				<param name="minWidth"><int>50</int></param>
+				<param name="minHeight"><int>15</int></param>
+			</theme>
+			<theme name="moisture-level2" ref="-defaults">
+				<param name="background"><image>water-level.2</image></param>
+				<param name="minWidth"><int>50</int></param>
+				<param name="minHeight"><int>15</int></param>
+			</theme>
+			<theme name="moisture-level3" ref="-defaults">
+				<param name="background"><image>water-level.3</image></param>
+				<param name="minWidth"><int>50</int></param>
+				<param name="minHeight"><int>15</int></param>
+			</theme>
+			<theme name="moisture-level4" ref="-defaults">
+				<param name="background"><image>water-level.4</image></param>
+				<param name="minWidth"><int>50</int></param>
+				<param name="minHeight"><int>15</int></param>
+			</theme>
+          <theme name="moisture-level5" ref="-defaults">
+            <param name="background">
+              <image>water-level.5</image>
+            </param>
+            <param name="minWidth">
+              <int>50</int>
+            </param>
+            <param name="minHeight">
+              <int>15</int>
+            </param>
+          </theme>
+          <theme name="moisture-level6" ref="-defaults">
+            <param name="background">
+              <image>water-level.blue</image>
+            </param>
+            <param name="minWidth">
+              <int>50</int>
+            </param>
+            <param name="minHeight">
+              <int>15</int>
+            </param>
+          </theme>
+          <theme name="misc-nameplate-nobg" ref="-defaults">
+            <param name="background">
+              <image>water-level.background</image>
+            </param>
+          </theme>
+          <param name="font">
+            <font>alphabeta-border</font>
+          </param>
+        </theme>
+		<theme name="nameplate-friend" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>alphabeta-border-friend</font></param>
+		</theme>
+		<theme name="nameplate-team" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>alphabeta-border-team</font></param>
+		</theme>
+		<theme name="message" ref="-defaults" allowWildcard="true">
+			<param name="background"><image>chatframe.background</image></param>
+			<param name="font"><font>pb-dark</font></param>
+		</theme>
+		<!-- Chat Bubbles -->
+		<theme name="chat-bubble">
+			<param name="font"><font>tooltip-font</font></param>
+			<param name="background"><image>chat-bubble.background</image></param>
+			<param name="border"><border>2,5,8,3</border></param>
+			<param name="minWidth"><int>20</int></param>
+			<param name="minHeight"><int>16</int></param>
+			<param name="maxWidth"><int>200</int></param>
+			<param name="maxHeight"><int>600</int></param>
+			<param name="overlay"><image>none</image></param>
+			<param name="fonts">
+				<map>
+					<param name="default"><font>tooltip-font</font></param>
+				</map>
+			</param>
+			<param name="images"><map/></param>
+		</theme>
+	</theme>
+</themes>

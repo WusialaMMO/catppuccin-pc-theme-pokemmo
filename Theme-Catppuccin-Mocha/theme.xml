@@ -42,5 +42,6 @@
 	<include filename="main-widgets.xml"/>
 
 	<include filename="notif.xml"/>
+	<include filename="drops.xml"/>
 
 </themes>
