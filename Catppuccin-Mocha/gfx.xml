@@ -333,7 +333,10 @@
 		<area name="icon-admin" xywh="66,271,30,13" center="true" inset="0,0,1,0"/>
 		<area name="icon-dev" xywh="35,271,29,13" center="true" inset="0,0,1,0"/>
 		<area name="icon-hgm" xywh="4,271,30,13" center="true" inset="0,0,1,0"/>
-
+		<area name="icon-sm" xywh="98,271,25,13" center="true" inset="0,0,1,0"/>
+		<area name="icon-gd" xywh="125,271,25,13" center="true" inset="0,0,1,0"/>
+		<area name="icon-system" xywh="153,256,29,13" center="true" inset="0,0,1,0"/>
+	
 		<area name="monstergear-pic" xywh="66,308,21,16" center="true" inset="0,0,1,0" splitx="L9,R9" splity="T5,B5"/>
 		<area name="row.background" xywh="23,308,17,15" inset="0,1,2,2" splitx="L5,R5" splity="T5,B5"/>
 		<area name="row-header.background" xywh="45,308,17,15" inset="0,-1,2,-1" splitx="L5,R5" splity="T5,B5"/>

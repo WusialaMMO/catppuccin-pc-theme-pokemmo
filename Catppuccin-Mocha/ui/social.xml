@@ -79,6 +79,11 @@
 				<param name="minWidth"><int>100</int></param>
 			</theme>
 			<!-- Value -->
+      <theme name="label-value" ref="label" allowWildcard="true">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">left</enum></param>
+        <param name="border"><border>6</border></param>
+      </theme>
 			<theme name="label-value-medium" ref="label" allowWildcard="true">
 				<param name="background"><image>ui-inputbox.background</image></param>
 				<param name="textAlignment"><enum type="alignment">left</enum></param>
@@ -110,6 +115,10 @@
 				<param name="minWidth"><int>60</int></param>
 			</theme>
 			<!-- Titles -->
+      <theme name="label-title" ref="label-value" allowWildcard="true">
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
 			<theme name="label-title-medium" ref="label-value-medium" allowWildcard="true">
 				<param name="background"><image>ui-header.background</image></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>

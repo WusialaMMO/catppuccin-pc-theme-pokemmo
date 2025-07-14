@@ -3,12 +3,12 @@
 	<!-- Customization GUI -->
 	<theme name="customize-widget" ref="base-frame">
 		<param name="border"><border>5,5,5,5</border></param>
-		<param name="minWidth"><int>600</int></param>
+		<param name="minWidth"><int>650</int></param>
 		<param name="minHeight"><int>450</int></param>
 		<theme name="dialoglayout" ref="dialoglayout">
 			<theme name="dialoglayout" ref="dialoglayout">
 				<theme name="combobox" ref="combobox" allowWildcard="true">
-					<param name="minWidth"><int>210</int></param>
+					<param name="minWidth"><int>260</int></param>
 				</theme>
 				<theme name="editfield" ref="editfield">
 					<theme name="renderer" ref="renderer">

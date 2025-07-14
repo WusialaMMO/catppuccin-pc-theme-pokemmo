@@ -199,6 +199,7 @@
 
 	<theme name="editfieldautocompletionwindow" ref="-defaults">
 		<theme name="listbox" ref="-defaults">
+			<param name="minDisplayedRows"><int>5</int></param>
 			<theme name="display" ref="-defaults">
 				<param name="minHeight"><int>26</int></param>
 				<param name="minDisplayedRows"><int>5</int></param>
@@ -928,12 +929,24 @@
 			<param name="minWidth"><int>100</int></param>
 			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		</theme>
+    
+    <theme name="container" ref="-defaults">
+      <theme name="progressbar" ref="-defaults" allowWildcard="true">
+        <param name=""><image>progressbar.*</image></param>
+        <param name="minWidth"><int>100</int></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+		</theme>
 
 		<param name="namedGaps"><map/></param>
 		<theme name="label" ref="-defaults">
 			<param name="font"><font>pb-dark</font></param>
 			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		</theme>
+    <theme name="label-danger" ref="-defaults">
+      <param name="font"><font>pb-dark-red</font></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
     <theme name="label-title" ref="label" allowWildcard="true">
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="minWidth"><int>120</int></param>
@@ -972,6 +985,12 @@
       <param name="images">
         <map/>
       </param>
+    </theme>
+  </theme>
+  
+  <theme name="confirm-widget-warning" ref="confirm-widget">
+    <theme name="confirm-panel" ref="confirm-panel">
+      <param name="background"><image>ui-popup-warning.background</image></param>
     </theme>
   </theme>
 

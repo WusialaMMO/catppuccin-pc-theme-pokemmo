@@ -158,6 +158,7 @@
 					<param name="fonts"><map>
 						<param name="default"><font>alphabeta</font></param>
 						<param name="orange"><font>alphabeta-brown</font></param>
+            			<param name="bold"><font>alphabeta-yellow</font></param>
 						<param name="link"><font>alphabeta-blue</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
@@ -237,6 +238,9 @@
     </theme>
     <theme name="event-progressbar-halloween" ref="event-progressbar" allowWildcard="true">
       <param name=""><image>progressbar-halloween.*</image></param>
+    </theme>
+    <theme name="event-progressbar-halloween-pumpcat" ref="event-progressbar" allowWildcard="true">
+      <param name=""><image>progressbar-orange.*</image></param>
     </theme>
   </theme>
   
@@ -343,6 +347,27 @@
 		<param name="minWidth"><int>32</int></param>
 		<param name="minHeight"><int>16</int></param>
 	</theme>
+  <theme name="tag-sm" ref="-defaults">
+    <param name="background"><image>icon-sm</image></param>
+    <param name="minWidth"><int>32</int></param>
+    <param name="minHeight"><int>16</int></param>
+  </theme>
+  <theme name="tag-gd" ref="-defaults">
+    <param name="background"><image>icon-gd</image></param>
+    <param name="minWidth"><int>32</int></param>
+    <param name="minHeight"><int>16</int></param>
+  </theme>
+  <theme name="tag-system" ref="-defaults">
+    <param name="background"><image>icon-system</image></param>
+    <param name="minWidth"><int>32</int></param>
+    <param name="minHeight"><int>16</int></param>
+  </theme>
+  <theme name="tag-none" ref="-defaults">
+    <param name="background"><image>none</image></param>
+    <param name="minWidth"><int>0</int></param>
+    <param name="minHeight"><int>0</int></param>
+    <param name="border"><border>0</border></param>
+  </theme>
 
 	<theme name="nameplategui" ref="-defaults">
 		<theme name="nameplate-staff" ref="-defaults" allowWildcard="true">
@@ -684,6 +709,14 @@
 					<param name="minHeight"><int>80</int></param>
 					<param name="font"><font>pb-dark</font></param>
 				</theme>
+        <theme name="button-item-select" ref="button">
+          <param name="minHeight">
+            <int>48</int>
+          </param>
+          <param name="font">
+            <font>pb-dark</font>
+          </param>
+        </theme>
 			</theme>
 		</theme>
 	</theme>
@@ -1511,5 +1544,4 @@
       <param name="font"><font>battle</font></param>
     </theme>
   </theme>
-  
 </themes>

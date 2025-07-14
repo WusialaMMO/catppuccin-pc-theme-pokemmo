@@ -72,6 +72,8 @@
 						<param name="icon-jgm"><image>icon-jgm</image></param>
 						<param name="icon-mod"><image>icon-mod</image></param>
 						<param name="icon-adm"><image>icon-admin</image></param>
+            			<param name="icon-sm"><image>icon-sm</image></param>
+            			<param name="icon-gd"><image>icon-gd</image></param>
 						<param name="icon-friend"><image>icon7</image></param>
 					</map></param>
 				</theme>

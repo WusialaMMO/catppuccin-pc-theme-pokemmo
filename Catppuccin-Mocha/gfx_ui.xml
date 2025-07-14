@@ -566,6 +566,7 @@
 		</select>
 
 		<area name="ui-popup.background" xywh="317,247,42,42" splitx="L5,R5" splity="T5,B5"/>
+   		<area name="ui-popup-warning.background" xywh="405,245,41,41" splitx="L10,R10" splity="T10,B10"/>
 		<area name="ui-popup-button.selected" xywh="364,254,35,29" splitx="L4,R4" splity="T4,B4"/>
 		<area name="ui-popup-button.default" xywh="0,0,44,14" tint="#00FFFFFF"/>
 		<area name="ui-popup.background" xywh="317,247,42,42" splitx="L5,R5" splity="T5,B5"/>

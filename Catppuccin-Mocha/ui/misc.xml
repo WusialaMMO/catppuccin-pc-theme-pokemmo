@@ -115,10 +115,10 @@
 				<param name="font"><font>pb-dark-green</font></param>
 			</theme>
 
-			<theme name="held-item" ref="label">
+			<theme name="held-item" ref="button">
 				<param name="fadeDurationShow"><int>200</int></param>
 				<param name="fadeDurationHide"><int>0</int></param>
-				<param name="background"><image>none</image></param>
+<!--				<param name="background"><image>none</image></param>-->
 				<param name="border"><border>26,0,14,0</border></param>
 				<param name="minWidth"><int>130</int></param>
 				<param name="minHeight"><int>20</int></param>
@@ -131,7 +131,7 @@
 				<param name="fadeDurationHide"><int>0</int></param>
 				<param name="background"><image>ui-header.background</image></param>
 				<param name="border"><border>1,4</border></param>
-				<param name="minWidth"><int>100</int></param>
+				<param name="minWidth"><int>162</int></param>
 				<param name="minHeight"><int>20</int></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 				<param name="font"><font>pb-dark</font></param>
@@ -151,6 +151,11 @@
 					<param name="minWidth"><int>100</int></param>
 				</theme>
 			</theme>
+      
+      <theme name="gender-button" ref="button">
+        <param name="minWidth"><int>53</int></param>
+        <param name="minHeight"><int>53</int></param>
+      </theme>
 		</theme>
 	</theme>
 
@@ -229,6 +234,10 @@
 			<theme name="label" ref="label">
 				<param name="border"><border>0,0</border></param>
 			</theme>
+      <theme name="label-self" ref="label">
+        <param name="border"><border>0,0</border></param>
+        <param name="font"><font>alphabeta-lightgreen</font></param>
+      </theme>
 		</theme>
 	</theme>
 

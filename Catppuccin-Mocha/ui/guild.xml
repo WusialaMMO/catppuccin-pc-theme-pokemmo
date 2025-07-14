@@ -81,6 +81,8 @@
 									<param name="icon-hgm"><image>icon-hgm</image></param>
 									<param name="icon-dev"><image>icon-dev</image></param>
 									<param name="icon-adm"><image>icon-admin</image></param>
+                  					<param name="icon-sm"><image>icon-sm</image></param>
+                  					<param name="icon-gd"><image>icon-gd</image></param>
 								</map></param>
 							</theme>
 						</theme>
@@ -119,11 +121,11 @@
 								<param name="namedGaps"><map/></param>
 								<param name="minWidth"><int>300</int></param>
 								<param name="maxWidth"><int>300</int></param>
-								<theme name="button" ref="-defaults" allowWildcard="true">
+								<theme name="button" ref="button" allowWildcard="true">
 									<param name="minWidth"><int>100</int></param>
 									<param name="width"><int>100</int></param>
 									<param name="border"><border>5,0</border></param>
-									<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+									<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 								</theme>
 
 								<theme name="label-title-icon" ref="label" allowWildcard="true">
@@ -196,7 +198,9 @@
 
 								<theme name="editfield" ref="editfield">
 									<param name="minWidth"><int>130</int></param>
-									<param name="maxWidth"><int>130</int></param>
+								</theme>
+								
+                					<theme name="label-guild-log" ref="label-value-small">
 								</theme>
 
 								<theme name="togglebutton" ref="togglebutton">

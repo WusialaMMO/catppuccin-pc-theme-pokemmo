@@ -108,7 +108,7 @@
   </theme>
 
   <theme name="advanced-search-dialog" ref="dialoglayout">
-    <param name="border"><border>0,0,0,0</border></param>
+    <param name="border"><border>5,0,0,10</border></param>
 
     <!-- adv search -->
     <theme name="label-button-small2-centered" ref="button">
