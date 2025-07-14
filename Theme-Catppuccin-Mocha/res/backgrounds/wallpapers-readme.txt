@@ -22,14 +22,15 @@ Background file to replace:
 
 (Discord links lead to official Catppuccin Discord server)
 
-vibrant-mesh.png -> https://discord.com/channels/907385605422448742/1310420001546567771/1310420001546567771
 city-in-the-clouds -> https://www.pixground.com/city-in-the-clouds-4k-pc-wallpaper/
+doraemon_world -> https://discord.com/channels/907385605422448742/1332020585126957097/1332020585126957097 (Original source: Movie "Doraemon: Nobita's Earth Symphony" (2024))
 field-of-lavender -> https://wallpapers-clan.com/desktop-wallpapers/field-of-lavender-sunset/
 hatsune -> https://www.pixiv.net/en/artworks/89448138
+vibrant-mesh.png -> https://discord.com/channels/907385605422448742/1310420001546567771/1310420001546567771
 
 eevee-kawaii -> https://wallpapers-clan.com/desktop-wallpapers/pokemon-eevee-kawaii-bokeh/
-eevee-sitting -> https://wallpapers-clan.com/desktop-wallpapers/pokemon-eevee-sitting-in-field-anime/
 eevee-pikachu-field -> https://wallpapers-clan.com/desktop-wallpapers/pokemon-eevee-pikachu-field/
-kawaii-eevee -> https://wallpapers-clan.com/desktop-wallpapers/kawaii-eevee-pokemon/
+eevee-sitting -> https://wallpapers-clan.com/desktop-wallpapers/pokemon-eevee-sitting-in-field-anime/
 gengar -> https://www.uhdpaper.com/2024/08/gengar-pokemon-4k-4k-1052a.html
+kawaii-eevee -> https://wallpapers-clan.com/desktop-wallpapers/kawaii-eevee-pokemon/
 lugia-sky -> https://wallpapers-clan.com/desktop-wallpapers/rayquaza-soaring-through-the-sky/

@@ -96,7 +96,7 @@
 			<param name="font"><font>tooltip-font</font></param>
 		</theme>
     <theme name="title" ref="-defaults">
-      <param name="font"><font>title-font-lavender</font></param>
+      <param name="font"><font>title-font-flamingo</font></param>
     </theme>
 		<theme name="dialoglayout" ref="-defaults">
 			<param name="border"><border>0</border></param>

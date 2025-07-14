@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha" version="1.1" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
+<resource name="Theme Catppuccin Mocha" version="1.2" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
     <themes>
-        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="2" is_mobile="false"/>
+        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="3" is_mobile="false"/>
     </themes>
 </resource>

@@ -173,7 +173,7 @@
     <theme name="breed-group1" ref="breed-group">
     </theme>
     <theme name="breed-group2" ref="breed-group">
-      <param name="background"><image>label1.background</image></param>
+      <param name="background"><image>label2.background</image></param>
 		</theme>
 	</theme>
 

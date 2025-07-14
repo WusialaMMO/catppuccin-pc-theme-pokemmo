@@ -1,0 +1,46 @@
+<themes>
+<!-- Author: Revz -->
+<!-- Link: https://forums.pokemmo.com/index.php?/topic/186419-pc-mobile-smaller-transparent-notifications/ -->
+
+    <!--<images file="res/empty.png" filter="nearest">
+        <area name="ui-popup.background-notif" xywh="0,0,1,1" splitx="L5,R5" splity="T5,B5"/>
+	</images>-->
+    
+    <theme name="notification" ref="-defaults" allowWildcard="true"> <!-- #Notification -->
+		<param name="background"><image>label2.background</image></param>
+        <param name="border"><border>0,5,0,5</border></param>
+		<param name="titleAreaTop"><int>1</int></param>
+        <param name="titleAreaBottom"><int>1</int></param>
+
+        <theme name="title" ref="-defaults">
+			<param name="maxHeight"><int>1</int></param>
+			<param name="textAlignment"><enum type="alignment">left</enum></param>
+		</theme>
+
+        <theme name="dialoglayout" ref="-defaults">
+			<param name="maxHeight"><int>1</int></param>
+			<param name="border"><border>0,3,0,3</border></param>
+			<param name="defaultGap"><dimension>0,0</dimension></param>
+			<param name="smallGap"><dimension>0,0</dimension></param>
+			<param name="mediumGap"><dimension>0,0</dimension></param>
+			<param name="largeGap"><dimension>0,0</dimension></param>
+
+			<theme name="label" ref="-defaults">
+				<param name="border"><border>0,5,0,5</border></param>
+                <!-- <param name="font"><font>alphabeta-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+			</theme>
+		</theme>
+		
+		<theme name="label" ref="-defaults">
+			<param name="maxHeight"><int>1</int></param>
+			<param name="border"><border>0,5,0,5</border></param>
+            <!-- <param name="font"><font>alphabeta-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+		</theme>
+
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>close-handle-blue</image></param>
+			<param name="minWidth"><int>2</int></param>
+			<param name="minHeight"><int>2</int></param>
+		</theme>
+    </theme>
+</themes>

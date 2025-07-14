@@ -883,8 +883,11 @@
 		<area name="chat.bottom.background" tint="#FFFFFFFF" xywh="240,308,5,5" inset="-5,-3,0,-3"/>
 		<area name="chat.content.background" tint="#FFFFFFFF" xywh="240,308,5,5" inset="0,-3,0,-3"/>
 
-		<area name="label1.background" tint="#95949494" xywh="9,191,5,5" inset="0,0,0,0"/>
-		<area name="label2.background" tint="#99949494" xywh="9,191,5,5" inset="0,0,0,0"/>
+		<!-- <area name="label1.background" tint="#95949494" xywh="9,191,5,5" inset="0,0,0,0"/> -->
+		<area name="label1.background" xywh="0,0,1,1"/>
+		<!-- <area name="label2.background" tint="#99949494" xywh="9,191,5,5" inset="0,0,0,0"/> -->
+		<area name="label2.background" xywh="1,0,1,1"/>
+
 		<area name="label3.background" tint="#9900aeff" xywh="9,191,5,5" inset="0,0,0,0"/>
 		<area name="label4.background" tint="#99ff0000" xywh="9,191,5,5" inset="0,0,0,0"/>
 		<area name="label5.background" tint="#55FFFFFF" xywh="9,191,5,5" inset="0,0,0,0"/>
@@ -892,6 +895,7 @@
 
 
         <area name="label7.background" tint="#95949494" xywh="9,191,5,5" inset="7,0,0,0"/>
+		<area name="label-transparent.background" xywh="3,0,1,1"/>
 
 		<area name="table-header.background" tint="#55949494" xywh="9,191,5,5" inset="1,1,1,1"/>
 		<area name="table-row.background" tint="#99949494" xywh="9,191,5,5" inset="1,1,1,1"/>
@@ -1166,6 +1170,12 @@
 
 		<alias name="progressbar-pink.progressImage" tint="#FFFFFF" ref="progressbar-white.progressImage"/>
 		<alias name="progressbar-pink.background" ref="progressbar-white.background"/>
+
+    <alias name="progressbar-darkred.progressImage" tint="#800000" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-darkred.background" ref="progressbar-white.background"/>
+
+    <alias name="progressbar-gold.progressImage" tint="#d4af37" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-gold.background" ref="progressbar-white.background"/>
 	</images>
 	<images file="res/MainTCTexture.png">
 		<area name="trainer-card.background" xywh="0,0,454,287"/>
@@ -1272,7 +1282,9 @@
     -->
 
 
-    <area name="pc-preview.background" xywh="2,2,20,20" splitx="L7,R7" splity="T7,B7"/>
+    <!-- <area name="pc-preview.background" xywh="2,2,20,20" splitx="L7,R7" splity="T7,B7"/> -->
+	<area name="pc-preview.background" xywh="2,2,276,253"/>
+
 
     <grid name="pc-preview-pattern.background" weightsX="1" weightsY="1" tint="#0FFFFFFF" >
       <area xywh="23,2,10,10" repeatX="true" repeatY="true" sizeOverwriteV="0"/>
@@ -1353,10 +1365,18 @@
 		</select>
 
 	</images>
+
+  	<images file="res/pc-window-full.png" filter="nearest">
+    	<area name="pc-window-full" xywh="*"/>
+  	</images>
+
+  	<images file="res/pc-window-preview.png" filter="nearest">
+    	<area name="pc-window-preview" xywh="*"/>
+  	</images>
 	
-	<!-- Load custom background for login screen -->
+	<!-- Load custom background for login screen. Inset -1 stretches the image 1 px over the edges to avoid the below animation from showing in rare cases -->
 	<images file="res/background.png">
-        <area name="login-background" xywh="*"/>
+        <area name="login-background" xywh="*" inset="-1"/>
     </images>
 
 </themes>

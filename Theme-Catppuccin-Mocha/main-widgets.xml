@@ -246,7 +246,12 @@
 	<theme name="event-progressbar-xmas-hunt" ref="event-progressbar" allowWildcard="true">
       <param name=""><image>progressbar-violet.*</image></param>
     </theme>
-
+    <theme name="event-progressbar-cny-raids" ref="event-progressbar" allowWildcard="true">
+      <param name=""><image>progressbar-darkred.*</image></param>
+    </theme>
+    <theme name="event-progressbar-cny-coop" ref="event-progressbar" allowWildcard="true">
+      <param name=""><image>progressbar-darkred.*</image></param>
+    </theme>
   </theme>
   
 	<theme name="hudgui" ref="-defaults">
@@ -266,6 +271,39 @@
 			<param name="fadeDurationShow"><int>200</int></param>
 			<param name="fadeDurationHide"><int>200</int></param>
 			<param name="font"><font>alphabeta</font></param>
+		</theme>
+	</theme>
+
+  <theme name="clause-failure" ref="resizableframe" allowWildcard="true">
+    <param name="titleAreaTop">
+      <int>12</int>
+    </param>
+    <param name="closeButtonY">
+      <int>12</int>
+    </param>
+    <param name="background">
+      <image>ui-inner-frame-tab.background</image>
+    </param>
+    <theme name="label-monster-slot" ref="label" allowWildcard="true">
+      <param name="background">
+        <image>ui-inputbox.default</image>
+      </param>
+    </theme>
+    <theme name="label-monster-violation" ref="label-monster-slot" allowWildcard="true">
+      <param name="background">
+        <image>ui-inputbox.red</image>
+      </param>
+    </theme>
+    <theme name="label-blurb" ref="label" allowWildcard="true">
+      <param name="background">
+        <image>ui-status-warning.default</image>
+      </param>
+      <param name="font">
+        <font>mechabold</font>
+      </param>
+      <param name="border">
+        <border>0,4,4,4</border>
+      </param>
 		</theme>
 	</theme>
 
@@ -786,7 +824,7 @@
 
   <theme name="msgbox-move-selection-button" ref="-defaults" allowWildcard="true">
     <param name="font">
-      <font>mechabold</font>
+      <font>mechabold-red</font>
     </param>
     <param name="font2">
       <font>alphabeta-border</font>

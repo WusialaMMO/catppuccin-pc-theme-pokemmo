@@ -2,6 +2,7 @@
 <themes>
   <!-- PC Storage GUI's -->
   <theme name="pc-frame" ref="resizableframe">
+    <param name="background"><image>pc-window-full</image></param>
     <param name="border"><border>20,6,8,0</border></param>
     <theme name="pc-box-button" ref="button">
       <param name="background"><image>ui-button.background</image></param>
@@ -9,7 +10,8 @@
       <param name="border"><border>3,12</border></param>
     </theme>
     <theme name="preview-frame" ref="-defaults">
-      <param name="background"><image>label7.background</image></param>
+      <param name="background"><image>pc-window-preview</image></param>
+      <!-- <param name="background"><image>label7.background</image></param> -->
       <param name="border"><border>0,0,0,0</border></param>
       <theme name="label" ref="label" allowWildcard="true">
         <param name="border"><border>4</border></param>

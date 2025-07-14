@@ -341,7 +341,7 @@
 		<param name=""><image>mi-xpbar.*</image></param>
 	</theme>
 	<theme name="monsterframe-progressbar-contest-2" ref="-defaults" allowWildcard="true">
-		<param name=""><image>progressbar-pink.*</image></param>
+		<param name=""><image>mi-hpbar-violet.*</image></param>
 	</theme>
 	<theme name="monsterframe-progressbar-contest-3" ref="-defaults" allowWildcard="true">
 		<param name=""><image>mi-hpbar-green.*</image></param>

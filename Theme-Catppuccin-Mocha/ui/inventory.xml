@@ -8,7 +8,9 @@
 		<param name="titleAreaRight"><int>-1</int></param>
 		<param name="titleAreaBottom"><int>75</int></param>
 		<param name="closeButtonX"><int>-24</int></param>
-		<param name="closeButtonY"><int>50</int></param>
+    <param name="closeButtonY">
+      <int>47</int>
+    </param>
 
 		<param name="fadeColorInactive"><color>#FFFFFFFF</color></param>
 		<param name="fadeDurationActivate"><int>200</int></param>
@@ -90,7 +92,7 @@
 	</theme>
 
 	<theme name="item-move-dialog-button" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>mechabold</font></param>
+		<param name="font"><font>mechabold-red</font></param>
 		<param name="font2"><font>pb-dark</font></param>
 		<param name="border"><border>11,11,14,0</border></param>
 		<param name=""><image>button.*</image></param>
