@@ -61,6 +61,21 @@
 			<area xywh="67,133,10,5"/>
 		</grid>
 
+    <grid name="ui-inner-frame-floating.background" weightsX="0,1,0" weightsY="0,0,1,0">
+      <area xywh="197,4,10,11"/>
+      <area xywh="210,4,10,11" tiled="true"/>
+      <area xywh="222,4,10,11"/>
+      <area xywh="197,15,10,11"/>
+      <area xywh="214,15,10,11" tiled="true"/>
+      <area xywh="222,15,10,11"/>
+      <area xywh="197,26,10,21"/>
+      <area xywh="209,26,10,21"/>
+      <area xywh="222,26,10,21"/>
+      <area xywh="197,69,10,5"/>
+      <area xywh="209,69,10,5"/>
+      <area xywh="222,69,10,5"/>
+    </grid>
+    
 		<grid name="ui-inner-frame-tabbed.background" weightsX="0,1,0" inset="25,0,0,0" weightsY="0,0,1,0">
 			<area xywh="5,82,10,11"/>
 			<area xywh="33,82,10,11" tiled="true"/>
@@ -241,6 +256,11 @@
 		<area name="ui-sort-asc.background" xywh="390,133,9,8" inset="4,73,0,0" center="true"/>
 		<area name="ui-sort-desc.background" xywh="390,125,9,8" inset="-4,73,0,0" center="true"/>
 
+    <area name="ui-c-menu.right.background" xywh="386,128,4,6" />
+    <area name="ui-c-menu.down.background" xywh="385,128,5,5" />
+    <area name="ui-c-menu.right-b.background" xywh="406,128,8,9" />
+    <area name="ui-c-menu.down-b.background" xywh="416,128,8,9" />
+
 		<area name="ui-color.selector1" center="true" inset="-2" xywh="326,224,12,12"/>
 		<area name="ui-color.selector2" xywh="345,224,17,12" inset="-2,-5"/>
 
@@ -353,7 +373,6 @@
         </composed>
         <alias ref="ui-button.tinted.green"/>
       </select>
-
 
 		<!-- checkbox animation -->
 		<area name="ui-checkbox.f0" xywh="364,190,1,15" inset="0,-14,0,0" center="true"/>
@@ -753,4 +772,17 @@
 			<alias ref="ui-popup-button.default"/>
 		</select>
 	</images>
+	
+	<!-- Custom gender button that makes the selected button more visible -->
+	<images file="res/pokemmo_ui_custom.png" filter="nearest">
+    	<area name="ui-button-custom.selected.background" tint="main-color" xywh="353,147,29,29" splitx="L4,R4" splity="T4,B4"/>
+
+		<!-- Replace the selected button image only, keep the rest -->
+      	<select name="ui-select-button-custom-gender.background">
+        	<alias ref="ui-button-custom.selected.background" if="selected"/>
+			<alias ref="ui-select-button.background"></alias>
+    	</select>
+
+	</images>
+
 </themes>

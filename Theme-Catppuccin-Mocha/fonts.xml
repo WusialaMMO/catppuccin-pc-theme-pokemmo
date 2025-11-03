@@ -21,16 +21,16 @@
 	Capital letters should be replaced with lowercases, starting with an underscore. e.g. "magFilter" should be "mag_filter"
 	-->
 
-  <!-- <fontDef name="battle" filename="res/fonts/battle.ttf" color="#cdd6f4" shadow_offset_x="1" shadow_offset_y="1"
-           shadow_color="#CC000000" size="48" hinting="Full"/> -->
+  <fontDef name="battle-default" filename="res/fonts/battle.ttf" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1"
+           shadow_color="#CC000000" size="48" hinting="Full"/>
   <fontDef name="battle" filename="res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"
-           shadow_color="#CC000000" size="28" hinting="Full"/>
+           shadow_color="#CC000000" size="28" hinting="Full" markup="true"/>
 
   <fontDef name="braille" ref="battle" color="#000000"/>
 
   <fontDef name="alphabeta" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12"
            size_cjk="14" hinting="Full" hinting_cjk="Slight" default="true"
-           unique_atlas="true"><!-- Chat font gets its own atlas -->
+           unique_atlas="true" markup="true"><!-- Chat font gets its own atlas -->
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
@@ -65,9 +65,16 @@
 	<fontDef name="alphabeta-team" ref="alphabeta" color="#89dceb"/>
 	<fontDef name="alphabeta-link" ref="alphabeta" color="#00e6b8"/>
 
-	<fontDef name="alphabeta-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#434343">
+	<fontDef name="alphabeta-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#434343" markup="true">
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
 	</fontDef>
+
+  <!-- Custom font for items in battle: When its box is highlighted, change font color to black for better readability -->
+  <fontDef name="alphabeta-border-battle-item" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="0" border_color="#434343" markup="true">
+		<fontParam if="pressed" offsetX="1" offsetY="1" color="#11111b"/>
+		<fontParam if="keyboardFocus | hover" color="#11111b"/>
+	</fontDef>
+
 	<fontDef name="alphabeta-border-red" ref="alphabeta-border" color="#f09999"/>
 	<fontDef name="alphabeta-border-friend" ref="alphabeta-border" color="#a6e3a1"/>
 	<fontDef name="alphabeta-border-team" ref="alphabeta-border" color="#89dceb"/>
@@ -110,9 +117,14 @@
 
   <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>
   
-  <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848"/>
+  <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
   <fontDef name="mechabold-orig" ref="mechabold" color="#FFFFFF"/>
-  <fontDef name="mechabold-red" ref="mechabold" color="#f2cdcd" />
+  <fontDef name="mechabold-red" ref="mechabold" color="#eba0ac" />
+  <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
+
+  <fontDef name="mechabold-fight-buttons" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" markup="true" >
+    <fontParam if="hover | keyboardFocus | selected" color="#000000"/>
+  </fontDef>
   <fontDef name="mechabold-orange" ref="mechabold" color="#FF9900" />
   <fontDef name="mechabold-green" ref="mechabold" color="#9BFF9B" />
   <fontDef name="mechabold-blue" ref="mechabold" color="#87ceeb" />
@@ -129,6 +141,7 @@
   <fontDef name="title-font-rosewater" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#f5e0dc" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
   <fontDef name="title-font-flamingo" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#f2cdcd" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
   <fontDef name="title-font-lavender" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#b4befe" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
+  <fontDef name="title-font-maroon" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#eba0ac" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
 
   <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"/>
 

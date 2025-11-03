@@ -41,6 +41,7 @@
    <include filename="ui/incubator.xml"/>
 	<include filename="ui/staff.xml"/>
 	<include filename="main-widgets.xml"/>
+	<include filename="custom-counter.xml"/>
 
 	<include filename="notif.xml"/>
 	<include filename="drops.xml"/>

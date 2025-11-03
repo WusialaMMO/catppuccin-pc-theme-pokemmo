@@ -158,7 +158,7 @@
 			</theme>
       
       <theme name="gender-button" ref="button">
-      <param name=""><image>ui-select-button.*</image></param>
+      <param name=""><image>ui-select-button-custom-gender.*</image></param>
         <param name="minWidth"><int>53</int></param>
         <param name="minHeight"><int>53</int></param>
       </theme>
