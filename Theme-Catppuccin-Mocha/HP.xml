@@ -1,0 +1,37 @@
+<themes>
+    <images file="res/HP-bar.png" filter="nearest">
+        <area name="Hp-overlay" xywh="*" inset="-11,-2,-11,-7"/>
+
+		<alias name="the-health-progressbar-green.progressImage" ref="health-progressbar-green.progressImage" inset="0,0,0,-2"/>
+		<alias name="the-health-progressbar-green.background"	 ref="health-progressbar-green.background" 	  inset="0,0,0,-2"/>
+
+		<alias name="the-health-progressbar-orange.progressImage" ref="health-progressbar-orange.progressImage" inset="0,0,0,-2"/>
+		<alias name="the-health-progressbar-orange.background"	  ref="health-progressbar-orange.background" 	inset="0,0,0,-2"/>
+
+		<alias name="the-health-progressbar.progressImage" ref="health-progressbar.progressImage" inset="0,0,0,-2"/>
+		<alias name="the-health-progressbar.background"	   ref="health-progressbar.background" 	  inset="0,0,0,-2"/>
+	</images>
+
+	<theme name="health-progressbar" ref="health-progressbar" allowWildcard="true">
+		<param name=""><image>the-health-progressbar-green.*</image></param>
+		<param name="overlay"><image>Hp-overlay</image></param>
+		<param name="border"><border>0,0,0,0</border></param>
+	</theme>
+
+	<theme name="health-progressbar-orange" ref="health-progressbar-orange" allowWildcard="true">
+		<param name=""><image>the-health-progressbar-orange.*</image></param>
+		<param name="overlay"><image>Hp-overlay</image></param>
+		<param name="border"><border>0,0,0,0</border></param>
+	</theme>
+
+	<theme name="health-progressbar-red" ref="health-progressbar-red" allowWildcard="true">
+		<param name=""><image>the-health-progressbar.*</image></param>
+		<param name="overlay"><image>Hp-overlay</image></param>
+		<param name="border"><border>0,0,0,0</border></param>
+	</theme>
+
+	<theme name="redlabel" ref="redlabel" allowWildcard="true">
+		<param name="border"><border>0,0,0,0</border></param>
+	</theme>
+
+</themes>

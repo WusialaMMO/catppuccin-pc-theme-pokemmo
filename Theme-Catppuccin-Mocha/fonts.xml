@@ -41,6 +41,7 @@
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
   <fontDef name="alphabeta-gray" ref="alphabeta" color="#484848"/>
+  <fontDef name="alphabeta-lightgray" ref="alphabeta" color="#CECECE"/>
   <fontDef name="alphabeta-black" ref="alphabeta" color="black"/>
   <fontDef name="alphabeta-green" ref="alphabeta" color="#a6e3a1"/>
   <fontDef name="alphabeta-blue" ref="alphabeta" color="#AACFFF"/>
@@ -65,12 +66,12 @@
 	<fontDef name="alphabeta-team" ref="alphabeta" color="#89dceb"/>
 	<fontDef name="alphabeta-link" ref="alphabeta" color="#00e6b8"/>
 
-	<fontDef name="alphabeta-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#434343" markup="true">
+	<fontDef name="alphabeta-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#1e1e2e" markup="true">
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
 	</fontDef>
 
   <!-- Custom font for items in battle: When its box is highlighted, change font color to black for better readability -->
-  <fontDef name="alphabeta-border-battle-item" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="0" border_color="#434343" markup="true">
+  <fontDef name="alphabeta-border-battle-item" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="0" border_color="#1e1e2e" markup="true">
 		<fontParam if="pressed" offsetX="1" offsetY="1" color="#11111b"/>
 		<fontParam if="keyboardFocus | hover" color="#11111b"/>
 	</fontDef>
@@ -109,21 +110,24 @@
   </fontDef>
   <fontDef name="pb-dark-orange" ref="pb-dark" color="#BBBBBB"/>
 
-  <fontDef name="noto-8pt" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" border_width="1" border_color="#434343" size="8" incremental="false" characters="0123456789ABCDEF"/>
+  <fontDef name="noto-8pt" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" border_width="1" border_color="#1e1e2e" size="8" incremental="false" characters="0123456789ABCDEF"/>
 
   <fontDef name="noto-bold-large-white" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"/>
   <fontDef name="noto-bold-large-white-orig" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#1e1e2e"/>
 
 
-  <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>
+  <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#1e1e2e"/>
   
-  <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
+  <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#000000" markup="true"/>
   <fontDef name="mechabold-orig" ref="mechabold" color="#FFFFFF"/>
   <fontDef name="mechabold-red" ref="mechabold" color="#eba0ac" />
   <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
 
-  <fontDef name="mechabold-fight-buttons" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" markup="true" >
-    <fontParam if="hover | keyboardFocus | selected" color="#000000"/>
+  <fontDef name="mechabold-fight-buttons" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#b4befe" hinting="Medium" kerning="false" size="14" markup="true" >
+    <fontParam if="hover | keyboardFocus | selected" color="#11111b"/>
+  </fontDef>  
+  <fontDef name="mechabold-fight-buttons2" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" markup="true" >
+    <fontParam if="hover | keyboardFocus | selected" color="#313244"/>
   </fontDef>
   <fontDef name="mechabold-orange" ref="mechabold" color="#FF9900" />
   <fontDef name="mechabold-green" ref="mechabold" color="#9BFF9B" />
@@ -133,7 +137,7 @@
       <fontParam if="disabled" color="#CCC"/>
   </fontDef>
 
-  <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#484848"/>
+  <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#1e1e2e"/>
 
   <fontDef name="title-font" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1"/>
   <fontDef name="title-font-black" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#252525" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>

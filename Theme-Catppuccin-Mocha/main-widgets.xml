@@ -964,7 +964,7 @@
       <font>mechabold-fight-buttons</font>
     </param>
     <param name="font2">
-      <font>mechabold-fight-buttons</font>
+      <font>mechabold-fight-buttons2</font>
     </param>
     <param name="border">
       <border>11,12,14,9</border>

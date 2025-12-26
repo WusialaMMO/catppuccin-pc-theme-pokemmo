@@ -607,7 +607,8 @@
 
   <images file="res/battle-hud.png" filter="nearest">
 		<area name="progress.progressImage" xywh="27,21,1,2" tint="#90F8A0" inset="5,2"/>
-		<area name="xp-progressbar.progressImage" xywh="27,21,1,2" tint="#74C7EC" inset="5,2"/>
+    <area name="progress-white.progressImage" xywh="27,21,1,2" tint="#FFFFFF" inset="5,2"/>
+		<area name="xp-progressbar.progressImage" xywh="27,21,1,2" tint="#3035CE" inset="5,2"/>
 		<area name="health-progressbar.progressImage" xywh="20,9,1,4" inset="1,1,1,1"/>
 		<area name="health-progressbar-orange.progressImage" xywh="22,9,1,4" inset="1,1,1,1"/>
 		<area name="health-progressbar-green.progressImage" xywh="21,9,1,4" inset="1,1,1,1"/>
@@ -1196,22 +1197,22 @@
 			<area xywh="201,88,1,8"/>
 		</grid>
 
-    <alias name="progressbar-orange.progressImage" tint="#FFFFFF" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-orange.progressImage" tint="#fab387" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-orange.background" ref="progressbar-white.background"/>
 
-    <alias name="progressbar-violet.progressImage" tint="#FFFFFF" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-violet.progressImage" tint="#cba6f7" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-violet.background" ref="progressbar-white.background"/>
 
-    <alias name="progressbar-halloween.progressImage" tint="#FFFFFF" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-halloween.progressImage" tint="#f5c2e7" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-halloween.background" ref="progressbar-white.background"/>
 
-		<alias name="progressbar-pink.progressImage" tint="#FFFFFF" ref="progressbar-white.progressImage"/>
+		<alias name="progressbar-pink.progressImage" tint="#eba0ac" ref="progressbar-white.progressImage"/>
 		<alias name="progressbar-pink.background" ref="progressbar-white.background"/>
 
-    <alias name="progressbar-darkred.progressImage" tint="#800000" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-darkred.progressImage" tint="#f38ba8" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-darkred.background" ref="progressbar-white.background"/>
 
-    <alias name="progressbar-gold.progressImage" tint="#d4af37" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-gold.progressImage" tint="#f9e2af" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-gold.background" ref="progressbar-white.background"/>
 	</images>
 	<images file="res/MainTCTexture.png">
