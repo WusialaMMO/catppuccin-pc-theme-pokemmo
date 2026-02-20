@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<!-- DEFAULT ENC COUNTER -->
+	<images file="counter-theme-default.png" filter="nearest">
+		<area name="Counter Dark Default" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0"/>
+	</images>
+
+	<!-- VARTIOU ENC COUNTER -->
+    <images file="vartiou-aggron.png" filter="nearest">
+		<area name="Aggron (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-celibi.png" filter="nearest">
+		<area name="Celibi (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-darkrai.png" filter="nearest">
+		<area name="Darkrai (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-haxorus.png" filter="nearest">
+		<area name="Haxorus (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-larvitar.png" filter="nearest">
+		<area name="Larvitar (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+	<images file="vartiou-milotic.png" filter="nearest">
+		<area name="Milotic (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-porygon.png" filter="nearest">
+		<area name="Porygon (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-skitty.png" filter="nearest">
+		<area name="Skitty (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-smeargle.png" filter="nearest">
+		<area name="Smeargle (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-umbreon.png" filter="nearest">
+		<area name="Umbreon (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+    <images file="vartiou-volcarona.png" filter="nearest">
+		<area name="Volcarona (Vartiou)" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+	</images>
+
+	<theme name="encounter-counter" ref="resizableframe">
+    	<param name="background"><constant>catpp-pc-counter-minimized-constant</constant></param>
+	</theme>
+
+
+</themes>

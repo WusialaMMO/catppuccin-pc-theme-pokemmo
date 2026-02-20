@@ -608,7 +608,7 @@
   <images file="res/battle-hud.png" filter="nearest">
 		<area name="progress.progressImage" xywh="27,21,1,2" tint="#90F8A0" inset="5,2"/>
     <area name="progress-white.progressImage" xywh="27,21,1,2" tint="#FFFFFF" inset="5,2"/>
-		<area name="xp-progressbar.progressImage" xywh="27,21,1,2" tint="#3035CE" inset="5,2"/>
+		<area name="xp-progressbar.progressImage" xywh="27,21,1,2" tint="#74C7EC" inset="5,2"/>
 		<area name="health-progressbar.progressImage" xywh="20,9,1,4" inset="1,1,1,1"/>
 		<area name="health-progressbar-orange.progressImage" xywh="22,9,1,4" inset="1,1,1,1"/>
 		<area name="health-progressbar-green.progressImage" xywh="21,9,1,4" inset="1,1,1,1"/>
@@ -1348,7 +1348,7 @@
     <area name="ui-contest-button.tint" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#6d8498"/>
 		<area name="ui-contest-button.hover" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#91adc6"/>
 		<area name="ui-contest-button.disabled" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#6d8498"/>
-		<area name="ui-contest-button.pressed.background" xywh="6,35,60,19" splitx="L2,R2" splity="T4,B3" tint="#91adc6"/>
+		<area name="ui-contest-button.pressed.background" xywh="6,35,60,19" splitx="L2,R2" splity="T4,B3" tint="#FFFFFF"/>
 		<area name="ui-contest-button.selected.background" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#3d5680"/>
 
 		<area name="ui-contest-progress.progressImage2" tint="#3f7efd" xywh="5,59,110,7" splitx="L3,R3" splity="T2,B2"/>
@@ -1395,10 +1395,10 @@
 		</composed>
 
 		<select name="ui-contest-button.background">
-			<alias ref="ui-contest-button.pressed" if="pressed"/>
-			<alias ref="ui-contest-button.selected.hover" if="hover + (keyboardFocus)"/>
-			<alias ref="ui-contest-button.selected" if="keyboardFocus"/>
-			<alias ref="ui-contest-button.hover" if="hover"/>
+			<alias ref="ui-contest-button.pressed" if="pressed | hover | keyboardFocus"/>
+			<!-- <alias ref="ui-contest-button.selected.hover" if="hover | keyboardFocus"/> -->
+			<!-- <alias ref="ui-contest-button.selected" if="keyboardFocus | hover"/> -->
+			<!-- <alias ref="ui-contest-button.hover" if="hover"/> -->
 			<alias ref="ui-contest-button.default"/>
 		</select>
 

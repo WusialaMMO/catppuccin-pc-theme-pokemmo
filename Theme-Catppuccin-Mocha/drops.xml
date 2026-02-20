@@ -85,7 +85,7 @@
   <theme name="nameplategui" ref="-defaults">
 		<theme name="nameplate-staff" ref="-defaults" allowWildcard="true">
 			<param name="background"><image>label2.background</image></param>
-			<param name="font"><font>alphabeta-border</font></param>
+			<param name="font"><font>main-border</font></param>
 			<param name="maxHeight"><int>16</int></param>
 			<param name="border"><border>0,0,2,3</border></param>
 		</theme>
@@ -145,14 +145,14 @@
             </param>
           </theme>
           <param name="font">
-            <font>alphabeta-border</font>
+            <font>main-border</font>
           </param>
         </theme>
 		<theme name="nameplate-friend" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta-border-friend</font></param>
+			<param name="font"><font>main-border-friend</font></param>
 		</theme>
 		<theme name="nameplate-team" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta-border-team</font></param>
+			<param name="font"><font>main-border-team</font></param>
 		</theme>
 		<theme name="message" ref="-defaults" allowWildcard="true">
 			<param name="background"><image>chatframe.background</image></param>

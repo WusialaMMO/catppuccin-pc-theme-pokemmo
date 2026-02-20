@@ -27,14 +27,14 @@
 
 			<theme name="label" ref="-defaults">
 				<param name="border"><border>0,5,0,5</border></param>
-                <!-- <param name="font"><font>alphabeta-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+                <!-- <param name="font"><font>main-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
 			</theme>
 		</theme>
 		
 		<theme name="label" ref="-defaults">
 			<param name="maxHeight"><int>1</int></param>
 			<param name="border"><border>0,5,0,5</border></param>
-            <!-- <param name="font"><font>alphabeta-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+            <!-- <param name="font"><font>main-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
 		</theme>
 
 		<theme name="closeButton" ref="-defaults">

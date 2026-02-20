@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<!-- DEFAULT ANIMATION -->
+	<images file="transparent.png" filter="nearest">
+		<area name="Default Animation" xywh="*"/>
+	</images>
+
+	<!-- NON POKEMON THEMED -->
+    <images file="city-in-the-clouds.png" filter="nearest">
+		<area name="Clouds" xywh="*" inset="-1"/>
+	</images>
+    <images file="doraemon-world.png" filter="nearest">
+		<area name="Doraemon World" xywh="*" inset="-1"/>
+	</images>
+    <images file="field-of-lavender.png" filter="nearest">
+		<area name="Lavender Field (Bright)" xywh="*" inset="-1"/>
+	</images>
+    <images file="hatsune.png" filter="nearest">
+		<area name="Hatsune" xywh="*" inset="-1"/>
+	</images>
+    <images file="vibrant-mesh.png" filter="nearest">
+		<area name="Vibrant (Bright)" xywh="*" inset="-1"/>
+	</images>
+
+	<!-- POKEMON THEMED -->
+    <images file="pokemon-eevee-kawaii.png" filter="nearest">
+		<area name="Eevee Kawaii (Bright)" xywh="*" inset="-1"/>
+	</images>
+    <images file="pokemon-eevee-sitting.png" filter="nearest">
+		<area name="Eevee sitting (Bright)" xywh="*" inset="-1"/>
+	</images>
+    <images file="pokemon-gengar.png" filter="nearest">
+		<area name="Gengar" xywh="*" inset="-1"/>
+	</images>
+    <images file="pokemon-kawaii-eevee.png" filter="nearest">
+		<area name="Kawaii Eevee (Bright)" xywh="*" inset="-1"/>
+	</images>
+    <images file="pokemon-lugia-sky.png" filter="nearest">
+		<area name="Lugia" xywh="*" inset="-1"/>
+	</images>
+
+
+
+	<theme name="characterselectgui" ref="logingui">
+        <param name="background"><constant>catpp-pc-login-background-constant</constant></param>
+    </theme>
+	<theme name="logingui">
+        <param name="background"><constant>catpp-pc-login-background-constant</constant></param>
+	</theme>
+
+</themes>

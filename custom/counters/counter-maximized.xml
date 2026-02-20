@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<!-- DEFAULT ENC COUNTER -->
+	<images file="counter-theme-default.png" filter="nearest">
+		<area name="Counter Dark Default" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+
+	<!-- VARTIOU ENC COUNTER -->
+    <images file="vartiou-aggron.png" filter="nearest">
+		<area name="Aggron (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-celibi.png" filter="nearest">
+		<area name="Celibi (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-darkrai.png" filter="nearest">
+		<area name="Darkrai (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-haxorus.png" filter="nearest">
+		<area name="Haxorus (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-larvitar.png" filter="nearest">
+		<area name="Larvitar (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+	<images file="vartiou-milotic.png" filter="nearest">
+		<area name="Milotic (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-porygon.png" filter="nearest">
+		<area name="Porygon (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-skitty.png" filter="nearest">
+		<area name="Skitty (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-smeargle.png" filter="nearest">
+		<area name="Smeargle (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-umbreon.png" filter="nearest">
+		<area name="Umbreon (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+    <images file="vartiou-volcarona.png" filter="nearest">
+		<area name="Volcarona (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+
+
+	<theme name="encounter-counter-expanded" ref="encounter-counter">
+		<param name="background"><constant>catpp-pc-counter-maximized-constant</constant></param>
+	</theme>
+
+
+</themes>

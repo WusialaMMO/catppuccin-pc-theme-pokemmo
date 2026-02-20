@@ -84,7 +84,7 @@
       <param name="border"><border>5</border></param>
     </theme>
     <theme name="label-muted" ref="label">
-      <param name="font"><font>alphabeta-lightgray</font></param>
+      <param name="font"><font>main-lightgray</font></param>
     </theme>
     
     <!-- Cells -->
@@ -94,7 +94,7 @@
       <param name="border"><border>5</border></param>
     </theme>
     <theme name="cell-markup" ref="label">
-      <param name="font"><font>alphabeta-markup</font></param>
+      <param name="font"><font>main-markup</font></param>
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>

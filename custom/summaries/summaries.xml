@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<!-- DEFAULT REJUVENATED SUMMARY -->
+	<images file="beach-night.png" filter="nearest">
+		<area name="Beach Night" xywh="6,194,506,316"/>
+	</images>
+    <!-- REJUVENATED SUMMARIES -->
+	<images file="arena.png" filter="nearest">
+		<area name="Arena" xywh="6,194,506,316"/>
+	</images>
+	<images file="castle.png" filter="nearest">
+		<area name="Castle" xywh="6,194,506,316"/>
+	</images>
+	<images file="crystal-cave.png" filter="nearest">
+		<area name="Crystal Cave" xywh="6,194,506,316"/>
+	</images>
+	<images file="dark-forest.png" filter="nearest">
+		<area name="Dark Forest" xywh="6,194,506,316"/>
+	</images>
+	<images file="deep-earth.png" filter="nearest">
+		<area name="Deep Earth" xywh="6,194,506,316"/>
+	</images>
+	<images file="field-dusk.png" filter="nearest">
+		<area name="Field Dusk" xywh="6,194,506,316"/>
+	</images>
+	<images file="field-night.png" filter="nearest">
+		<area name="Field Night" xywh="6,194,506,316"/>
+	</images>
+	<images file="grassy-canyon-day.png" filter="nearest">
+		<area name="Grassy Canyon Day" xywh="6,194,506,316"/>
+	</images>
+	<images file="grassy-canyon-night.png" filter="nearest">
+		<area name="Grassy Canyon Night" xywh="6,194,506,316"/>
+	</images>
+	<images file="jacaranda.png" filter="nearest">
+		<area name="Jacaranda" xywh="6,194,506,316"/>
+	</images>
+	<images file="lab.png" filter="nearest">
+		<area name="Lab" xywh="6,194,506,316"/>
+	</images>
+	<images file="red-maple.png" filter="nearest">
+		<area name="Red Maple" xywh="6,194,506,316"/>
+	</images>
+	<images file="sakura.png" filter="nearest">
+		<area name="Sakura" xywh="6,194,506,316"/>
+	</images>
+	<images file="snowy-mountain.png" filter="nearest">
+		<area name="Snowy Mountain" xywh="6,194,506,316"/>
+	</images>
+	<images file="volcanic-night.png" filter="nearest">
+		<area name="Volcanic Night" xywh="6,194,506,316"/>
+	</images>
+
+
+	<theme name="monster-frame" ref="resizableframe">
+        <param name="background"><constant>catpp-pc-summary-constant</constant></param>
+    </theme>
+
+</themes>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+    <!-- DEFAULT TRANSPARENT BATTLE HUD -->
+	<images file="battle-hud-fully-transparent.png" filter="nearest">
+		<area name="Fully Transparent"  xywh="6,312,800,115"/>
+	</images>
+
+    <!-- OTHER BATTHE HUDS -->
+    <images file="battle-hud-default.png" filter="nearest">
+		<area name="Border" xywh="6,312,800,115"/>
+	</images>
+    <images file="battle-hud-more-transparent.png" filter="nearest">
+		<area name="Border More Transparent" xywh="6,312,800,115"/>
+	</images>
+	<images file="battle-hud-solid.png" filter="nearest">
+		<area name="Border Solid" xywh="6,312,800,115"/>
+	</images>
+    <images file="battle-hud-no-border-default.png" filter="nearest">
+		<area name="No Border" xywh="6,312,800,115"/>
+	</images>
+    <images file="battle-hud-no-border-more-transparent.png" filter="nearest">
+		<area name="No Border More Transparent" xywh="6,312,800,115"/>
+	</images>
+    <images file="battle-hud-no-border-solid.png" filter="nearest">
+		<area name="No Border Solid" xywh="6,312,800,115"/>
+	</images>
+
+
+	<theme name="battle-panel" ref="-defaults" allowWildcard="true">
+		<param name="background"><constant>catpp-pc-battle-hud-constant</constant></param>
+    </theme>
+
+
+</themes>
