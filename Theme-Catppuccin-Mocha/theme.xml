@@ -49,4 +49,11 @@
 	<include filename="drops.xml"/>
 	<include filename="HP.xml"/>
 
+	<!-- Load customization options -->
+	<include filename="../custom/login-backgrounds/bgs.xml"/>
+	<include filename="../custom/summaries/summaries.xml"/>
+	<include filename="../custom/counters/counter-minimized.xml"/>
+	<include filename="../custom/counters/counter-maximized.xml"/>
+	<include filename="../custom/battle-hud/battle-hud.xml"/>
+
 </themes>

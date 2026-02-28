@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha" version="7.0" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
+<resource name="Theme Catppuccin Mocha" version="7.1" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
     <themes>
-        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="7" is_mobile="false" sprite_atlas="custom-atlas/main.atlas"/>
-    </themes>
-    
-    <strings string_revision="1">
-      <string path="Strings/color_es.xml"/>
-      <string path="Strings/color_en.xml"/>
-      <string path="Strings/color_de.xml"/>
-      <string path="Strings/color_fr.xml"/>
-      <string path="Strings/color_it.xml"/>
-      <string path="Strings/color_ja.xml"/>
-      <string path="Strings/color_ko.xml"/>
-      <string path="Strings/color_pl.xml"/>
-      <string path="Strings/color_pt-BR.xml"/>
-      <string path="Strings/color_zh-Hant.xml"/>
-      <string path="Strings/color_zh.xml"/>
-    </strings>
-
-    
-
-
-
-    <!-- CUSTOMIZATION OPTIONS -->
-    <theme_extensions theme_extension_revision="1">
-
-        <!-- LOGIN BACKGROUNDS -->
-        <theme_extension name="Catppuccin-Mocha-Pc-Login-Background-Extension" path="custom/login-backgrounds/bgs.xml" is_mobile="false">
+        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="7" is_mobile="false" sprite_atlas="custom-atlas/main.atlas">
             <constants>
+
+
+                <!-- LOGIN BACKGROUNDS -->
                 <constant name="catpp-pc-login-background-constant" public_name="Catpp-PC Login Backgrounds" type="IMAGE" default_value="Default Animation">
 
                     <!-- DEFAULT ANIMATION -->
@@ -48,15 +26,11 @@
                     <whitelist_value>Lugia</whitelist_value>
                     
                 </constant>
-            </constants>
-        </theme_extension>
 
 
 
 
-        <!-- SUMMARY BACKGROUNDS -->
-        <theme_extension name="Catppuccin-Mocha-Pc-Summary-Extension" path="custom/summaries/summaries.xml" is_mobile="false">
-            <constants>
+                <!-- SUMMARY BACKGROUNDS -->
                 <constant name="catpp-pc-summary-constant" public_name="Catpp-PC Summary Backgrounds" type="IMAGE" default_value="Beach Night">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
@@ -80,15 +54,11 @@
                     <whitelist_value>Volcanic Night</whitelist_value>
                     
                 </constant>
-            </constants>
-        </theme_extension>
 
 
 
 
-        <!-- ENCOUNTER COUNTERS MINIMIZED -->
-        <theme_extension name="Catppuccin-Mocha-Pc-Counter-Minimized-Extension" path="custom/counters/counter-minimized.xml" is_mobile="false">
-            <constants>
+                <!-- ENCOUNTER COUNTERS MINIMIZED -->
                 <constant name="catpp-pc-counter-minimized-constant" public_name="Catpp-PC Enc Counter Minimized" type="IMAGE" default_value="Counter Dark Default">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
@@ -108,15 +78,11 @@
                     <whitelist_value>Volcarona (Vartiou)</whitelist_value>
                     
                 </constant>
-            </constants>
-        </theme_extension>
 
 
 
 
-        <!-- ENCOUNTER COUNTERS MAXIMIZED -->
-        <theme_extension name="Catppuccin-Mocha-Pc-Counter-Maximized-Extension" path="custom/counters/counter-maximized.xml" is_mobile="false">
-            <constants>
+                <!-- ENCOUNTER COUNTERS MAXIMIZED -->
                 <constant name="catpp-pc-counter-maximized-constant" public_name="Catpp-PC Enc Counter Maximized" type="IMAGE" default_value="Counter Dark Default">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
@@ -136,15 +102,11 @@
                     <whitelist_value>Volcarona (Vartiou)</whitelist_value>
                     
                 </constant>
-            </constants>
-        </theme_extension>
 
 
 
 
-        <!-- BOTTOM BATTLE HUD BACKGROUND -->
-        <theme_extension name="Catppuccin-Mocha-Pc-Battle-Hud-Extension" path="custom/battle-hud/battle-hud.xml" is_mobile="false">
-            <constants>
+                <!-- BOTTOM BATTLE HUD BACKGROUND -->
                 <constant name="catpp-pc-battle-hud-constant" public_name="Catpp-PC Battle Hud Background" type="IMAGE" default_value="Fully Transparent">
 
 	                <!-- DEFAULT TRANSPARENT BATTLE HUD -->
@@ -159,7 +121,24 @@
                     <whitelist_value>No Border Solid</whitelist_value>
                    
                 </constant>
+
+                
             </constants>
-        </theme_extension>
-    </theme_extensions>
+        </theme>
+    </themes>
+    
+    <strings string_revision="1">
+      <string path="Strings/color_es.xml"/>
+      <string path="Strings/color_en.xml"/>
+      <string path="Strings/color_de.xml"/>
+      <string path="Strings/color_fr.xml"/>
+      <string path="Strings/color_it.xml"/>
+      <string path="Strings/color_ja.xml"/>
+      <string path="Strings/color_ko.xml"/>
+      <string path="Strings/color_pl.xml"/>
+      <string path="Strings/color_pt-BR.xml"/>
+      <string path="Strings/color_zh-Hant.xml"/>
+      <string path="Strings/color_zh.xml"/>
+    </strings>
+ 
 </resource>
