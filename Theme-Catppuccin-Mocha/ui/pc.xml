@@ -10,7 +10,7 @@
       <param name="border"><border>3,12</border></param>
     </theme>
     <theme name="preview-frame" ref="-defaults">
-      <param name="background"><image>pc-window-preview</image></param>
+      <param name="background"><constant>catpp-pc-pc-background-constant</constant></param>
       <!-- <param name="background"><image>label7.background</image></param> -->
       <param name="border"><border>0,0,0,0</border></param>
       <theme name="label" ref="label" allowWildcard="true">

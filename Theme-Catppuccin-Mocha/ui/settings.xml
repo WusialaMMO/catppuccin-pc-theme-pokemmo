@@ -194,7 +194,7 @@
 	<theme name="mods-panel" ref="base-frame" allowWildcard="true">
 		<param name="fadeDurationShow"><int>200</int></param>
 		<param name="fadeDurationHide"><int>200</int></param>
-		<param name="minHeight"><int>300</int></param>
+		<param name="minHeight"><int>500</int></param>
 		<theme name="dialoglayout" ref="-dialog">
 			<param name="defaultGap"><dimension>5,5</dimension></param>
 			<param name="border"><border>40,10,5,7</border></param>
@@ -207,10 +207,10 @@
 					<theme name="dialoglayout" ref="-dialog">
 						<param name="defaultGap"><dimension>5,2</dimension></param>
 						<theme name="label-settings-value-modbuttons" ref="-dialog">
-							<param name="defaultGap"><dimension>1,1</dimension></param>
+							<param name="defaultGap"><dimension>0,0</dimension></param>
 							<param name="background"><image>none</image></param>
 							<param name="textAlignment"><enum type="alignment">left</enum></param>
-							<param name="border"><border>3,0,0,0</border></param>
+							<param name="border"><border>0,0,0,0</border></param>
 							<param name="font"><font>main</font></param>
 							<param name="maxWidth"><int>250</int></param>
 							<param name="minWidth"><int>100</int></param>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<images file="stars-in-the-sky.png" filter="nearest">
+		<area name="Stars in the Sky" xywh="*"/>
+	</images>
+	<images file="night-sky.png" filter="nearest">
+		<area name="Night Sky" xywh="*"/>
+	</images>
+    <images file="flower-field.png" filter="nearest">
+		<area name="Flower Field (Bright)" xywh="*"/>
+	</images>
+    <images file="gray-clouds.png" filter="nearest">
+		<area name="Gray Clouds" xywh="*"/>
+	</images>
+    <images file="purple-sky.png" filter="nearest">
+		<area name="Purple Sky" xywh="*"/>
+	</images>
+    <images file="old-default.png" filter="nearest">
+		<area name="Old Default" xywh="*"/>
+	</images>
+
+
+</themes>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<themes>
+
+    <!-- CATPPUCCIN MOCHA ACCENT COLORS -->
+    <constantDef name="Lavender Color"><color>#b4befe</color></constantDef>
+    <constantDef name="Rosewater Color"><color>#f5e0dc</color></constantDef>
+    <constantDef name="Flamingo Color"><color>#f2cdcd</color></constantDef>
+    <constantDef name="Pink Color"><color>#f5c2e7</color></constantDef>
+    <constantDef name="Mauve Color"><color>#cba6f7</color></constantDef>
+    <constantDef name="Red Color"><color>#f38ba8</color></constantDef>
+    <constantDef name="Maroon Color"><color>#eba0ac</color></constantDef>
+    <constantDef name="Peach Color"><color>#fab387</color></constantDef>
+    <constantDef name="Yellow Color"><color>#f9e2af</color></constantDef>
+    <constantDef name="Green Color"><color>#a6e3a1</color></constantDef>
+    <constantDef name="Teal Color"><color>#94e2d5</color></constantDef>
+    <constantDef name="Sky Color"><color>#89dceb</color></constantDef>
+    <constantDef name="Sapphire Color"><color>#74c7ec</color></constantDef>
+    <constantDef name="Blue Color"><color>#89b4fa</color></constantDef>
+
+    <constantDef name="Base Color"><color>#1e1e2e</color></constantDef>
+    <constantDef name="Mantle Color"><color>#181825</color></constantDef>
+    <constantDef name="Crust Color"><color>#11111b</color></constantDef>
+
+    <constantDef name="White Color"><color>#FFFFFF</color></constantDef>
+    <constantDef name="Black Color"><color>#000000</color></constantDef>
+
+</themes>

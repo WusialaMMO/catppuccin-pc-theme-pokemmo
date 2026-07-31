@@ -2,12 +2,13 @@
 <!-- Author: Revz -->
 <!-- Link: https://forums.pokemmo.com/index.php?/topic/186419-pc-mobile-smaller-transparent-notifications/ -->
 
-    <!--<images file="res/empty.png" filter="nearest">
-        <area name="ui-popup.background-notif" xywh="0,0,1,1" splitx="L5,R5" splity="T5,B5"/>
-	</images>-->
+	<images file="res/main-hud.png" filter="nearest">
+		<area name="Hide Notif Background" xywh="3,0,1,1"/>
+		<area name="Show Notif Background" xywh="1,0,1,1"/>
+	</images>
     
     <theme name="notification" ref="-defaults" allowWildcard="true"> <!-- #Notification -->
-		<param name="background"><image>label2.background</image></param>
+		<param name="background"><constant>catpp-pc-notif-background</constant></param>
         <param name="border"><border>0,5,0,5</border></param>
 		<param name="titleAreaTop"><int>1</int></param>
         <param name="titleAreaBottom"><int>1</int></param>
@@ -27,14 +28,14 @@
 
 			<theme name="label" ref="-defaults">
 				<param name="border"><border>0,5,0,5</border></param>
-                <!-- <param name="font"><font>main-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+                <param name="font"><constant>catpp-pc-notif-font</constant></param>
 			</theme>
 		</theme>
 		
 		<theme name="label" ref="-defaults">
 			<param name="maxHeight"><int>1</int></param>
 			<param name="border"><border>0,5,0,5</border></param>
-            <!-- <param name="font"><font>main-10pt</font></param> --> <!--Use this to change the font, can make them even smaller-->
+            <param name="font"><constant>catpp-pc-notif-font</constant></param>
 		</theme>
 
 		<theme name="closeButton" ref="-defaults">

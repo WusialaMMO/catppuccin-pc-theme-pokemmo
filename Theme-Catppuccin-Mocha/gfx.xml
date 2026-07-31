@@ -2,7 +2,7 @@
 <themes>
 	<images file="res/text-bubble.png" filter="nearest">
 		<area name="text-bubble.background" xywh="0,0,128,128" splitx="L63,R63" splity="T63,B63"/>
-		<area name="text-bubble-arrow.background" xywh="128,0,32,32" sizeOverwriteH="32" sizeOverwriteV="32"/>
+		<area name="text-bubble-arrow.background" xywh="128,0,32,32" sizeOverwriteH="32" sizeOverwriteV="32" tint="catpp-pc-accent-color"/>
 	</images>
 	<images file="res/user-interface.png" filter="nearest">
 		<area name="white.background" xywh="11,313,1,1"/>
@@ -481,7 +481,7 @@
 
 	<!-- Login Screen -->
 	<images file="res/bg.png" filter="nearest">
-		<area name="background-image" xywh="*"/>
+		<area name="background-image" xywh="*" tint="catpp-pc-accent-color"/>
 	</images>
 
     <images file="res/logo_hween.png" filter="nearest">
@@ -555,14 +555,14 @@
 		<area name="pcslot.bg.default" xywh="3,1,60,50"/>
 		<area name="pcslot.bg.active" xywh="66,1,60,50"/>
 		<area name="pcslot.inner.default" xywh="3,53,60,50"/>
-		<area name="pcslot.inner.active" xywh="66,53,60,50"/>
+		<area name="pcslot.inner.active" xywh="66,53,60,50" tint="catpp-pc-accent-color"/>
 		<area name="pcslot.inner.filtered" xywh="129,53,60,50"/>
 		<area name="pcslot.bg.overlay.default" xywh="66,104,60,50"/>
 		<area name="pcslot.bg.overlay.disabled" xywh="3,104,60,50"/>
 		<area name="pcslot.bg.overlay.battlebox" xywh="129,104,60,50"/>
 		<area name="pcslot.border.default" xywh="3,157,60,50"/>
-		<area name="pcslot.border.selected" xywh="66,157,60,50"/>
-		<area name="pcslot.border.selected2" xywh="66,157,60,50" inset="-1"/>
+		<area name="pcslot.border.selected" xywh="66,157,60,50" tint="catpp-pc-accent-color"/>
+		<area name="pcslot.border.selected2" xywh="66,157,60,50" inset="-1" tint="catpp-pc-accent-color"/>
 		<area name="pcslot.border.filtered" xywh="129,157,60,50"/>
     <area name="pcslot.border.filtered2" xywh="129,157,60,50" inset="-1"/>
 		<composed name="pc-slot.background">
@@ -746,7 +746,7 @@
 		<area name="button-tiny.hover" xywh="227,40,66,30" splitx="L5,R5" splity="T6,B8"/>
 		<area name="button-tiny.disabled" xywh="227,71,66,30" splitx="L5,R5" splity="T6,B8"/>
 		<area name="button-small.default" xywh="227,9,66,30" splitx="L25,R25" splity="T6,B8"/>
-		<area name="button-small.hover" xywh="227,40,66,30" splitx="L25,R25" splity="T6,B8"/>
+		<area name="button-small.hover" xywh="227,40,66,30" splitx="L25,R25" splity="T6,B8" tint="catpp-pc-accent-color"/>
 		<area name="button-small.disabled" xywh="227,71,66,30" splitx="L25,R25" splity="T6,B8"/>
 
 		<area name="button-tab.default" xywh="227,9,66,25" splitx="L5,R5" splity="T6,B8"/>
@@ -754,10 +754,10 @@
 		<area name="button-tab.disabled" xywh="227,71,66,25" splitx="L5,R5" splity="T6,B8"/>
 
 		<area name="button.default" xywh="7,7,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.hover1" xywh="8,62,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.hover2" xywh="61,62,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.hover3" xywh="114,62,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.hover4" xywh="169,62,52,52" splitx="L8,R8" splity="T8,B8"/>
+		<area name="button.hover1" xywh="8,62,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
+		<area name="button.hover2" xywh="61,62,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
+		<area name="button.hover3" xywh="114,62,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
+		<area name="button.hover4" xywh="169,62,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
 
 		<animation name="button.hover" timeSource="hover" count="1">
 			<frame duration="50" ref="button.hover1" tint="#FFFFFFFF"/>
@@ -767,8 +767,8 @@
 		</animation>
 
 		<area name="button.disabled" xywh="61,7,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.selected1" xywh="114,7,52,52" splitx="L8,R8" splity="T8,B8"/>
-		<area name="button.selected2" xywh="169,7,52,52" splitx="L8,R8" splity="T8,B8"/>
+		<area name="button.selected1" xywh="114,7,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
+		<area name="button.selected2" xywh="169,7,52,52" splitx="L8,R8" splity="T8,B8" tint="catpp-pc-accent-color"/>
 
 		<animation name="button.selected" timeSource="selected">
 			<frame duration="400" ref="button.selected1" tint="#FFFFFFFF"/>
@@ -1063,10 +1063,6 @@
 		</select>
 	</images>
 
-  <images file="res/caught-window.png" filter="nearest">
-    <area name="monster-caught.background" xywh="0,0,498,410"/>
-	</images>
-
 	<images file="res/monster-info.png" filter="nearest">
 		<area name="mi-label-title" xywh="7,58,15,24" splitx="L10,R0" splity="T16,B0" tint="#FFFFFF"/>
 		<area name="mi-label-title-inset" inset="0,6" xywh="7,58,15,24" splitx="L10,R0" splity="T16,B0" tint="#FFFFFF"/>
@@ -1348,8 +1344,8 @@
     <area name="ui-contest-button.tint" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#6d8498"/>
 		<area name="ui-contest-button.hover" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#91adc6"/>
 		<area name="ui-contest-button.disabled" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#6d8498"/>
-		<area name="ui-contest-button.pressed.background" xywh="6,35,60,19" splitx="L2,R2" splity="T4,B3" tint="#FFFFFF"/>
-		<area name="ui-contest-button.selected.background" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="#3d5680"/>
+		<area name="ui-contest-button.pressed.background" xywh="6,35,60,19" splitx="L2,R2" splity="T4,B3" tint="catpp-pc-accent-color"/>
+		<area name="ui-contest-button.selected.background" xywh="6,5,60,19" splitx="L2,R2" splity="T3,B4" tint="catpp-pc-accent-color"/>
 
 		<area name="ui-contest-progress.progressImage2" tint="#3f7efd" xywh="5,59,110,7" splitx="L3,R3" splity="T2,B2"/>
 		<grid name="ui-contest-progress.progressImage" weightsX="0,1,0" weightsY="1" tint="#8c98b0">

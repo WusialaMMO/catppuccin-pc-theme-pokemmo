@@ -233,7 +233,7 @@
 	<!-- Used for Battle Monster Switch buttons @ Battle Frame -->
 	<theme name="battle-button" ref="-defaults" allowWildcard="true">
 		<param name=""><image>battle-button-switch.*</image></param>
-		<param name="font"><font>title-font</font></param>
+		<param name="font"><font>title-font-catppuccin</font></param>
 		<param name="font2"><font>main-border</font></param>
 		<param name="border"><border>7,0</border></param>
 		<theme name="label" ref="label" allowWildcard="true">

@@ -3,7 +3,7 @@
 
     <!-- DEFAULT TRANSPARENT BATTLE HUD -->
 	<images file="battle-hud-fully-transparent.png" filter="nearest">
-		<area name="Fully Transparent"  xywh="6,312,800,115"/>
+		<area name="Hide Battle Hud"  xywh="6,312,800,115"/>
 	</images>
 
     <!-- OTHER BATTHE HUDS -->

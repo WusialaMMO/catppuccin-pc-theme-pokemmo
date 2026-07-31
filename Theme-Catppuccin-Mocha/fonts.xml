@@ -28,6 +28,8 @@
 
   <fontDef name="braille" ref="battle" color="#000000"/>
 
+  <fontDef name="marquee" ref="battle" markup="true"/>
+  
   <fontDef name="main" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12"
            size_cjk="14" hinting="Full" hinting_cjk="Slight" default="true"
            unique_atlas="true" markup="true"><!-- Chat font gets its own atlas -->
@@ -40,6 +42,12 @@
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
+  <fontDef name="main-markup-white" markup="true" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp"
+           color="#FFFFFF" size="12" size_cjk="14" hinting="Full" hinting_cjk="Slight"
+           unique_atlas="true" border_width="1" border_color="#1e1e2e">
+    <fontParam if="disabled" color="#A9A9A9"/>
+    <fontParam if="pressed" offsetX="1" offsetY="1"/>
+  </fontDef>
   <fontDef name="main-gray" ref="main" color="#484848"/>
   <fontDef name="main-custom-white" ref="main" color="#FFFFFF"/>
   <fontDef name="main-lightgray" ref="main" color="#CECECE"/>
@@ -48,16 +56,18 @@
   <fontDef name="main-blue" ref="main" color="#AACFFF"/>
   <fontDef name="main-orange-shadow" ref="main" color="#FF9900"/>
   <fontDef name="main-battle" ref="main" color="#FFFF00"/>
-  <fontDef name="main-catppuccin-yellow" ref="main" color="#f9e2af"/>
-  <fontDef name="main-catppuccin-yellow" ref="main" color="#f0cf81"/>
-  <fontDef name="main-catppuccin-yellow2" ref="main" color="#f4fc9a"/>
-  <fontDef name="main-orange" ref="main" color="#FF9900"/>
+  <fontDef name="main-normal" ref="main" color="catpp-pc-chat-normal-color"/>
+  <fontDef name="main-channel" ref="main" color="catpp-pc-chat-channel-color"/>
+  <fontDef name="main-battle2" ref="main" color="catpp-pc-chat-battle-color"/>
+  <fontDef name="main-orange" ref="main" color="catpp-pc-chat-shout-color"/>
 	<fontDef name="main-lightgreen" ref="main" color="#a6e3a1"/>
-	<fontDef name="main-purple" ref="main" color="#FF99FF"/>
+	<fontDef name="main-whisper" ref="main" color="catpp-pc-chat-whisper-color"/>
+	<fontDef name="main-purple" ref="main" color="catpp-pc-chat-trade-color"/>
 	<fontDef name="main-teal" ref="main" color="#94e2d5"/>
+	<fontDef name="main-global" ref="main" color="catpp-pc-chat-global-color"/>
 	<fontDef name="main-red" ref="main" color="#f09999"/>
 	<fontDef name="main-yellow" ref="main" color="#e2c57e"/>
-	<fontDef name="main-brown" ref="main" color="#ff8484"/>
+	<fontDef name="main-brown" ref="main" color="catpp-pc-chat-team-color"/>
 	<fontDef name="main-gm" ref="main" color="#5e98ff"/>
 	<fontDef name="main-cm" ref="main" color="#a6e3a1"/>
 	<fontDef name="main-hgm" ref="main" color="#ff5858"/>
@@ -65,7 +75,7 @@
 	<fontDef name="main-admin" ref="main" color="#ff63cb"/>
 	<fontDef name="main-friend" ref="main" color="#a6e3a1"/>
 	<fontDef name="main-team" ref="main" color="#89dceb"/>
-	<fontDef name="main-link" ref="main" color="#00e6b8"/>
+	<fontDef name="main-link" ref="main" color="catpp-pc-chat-link-color"/>
 
 	<fontDef name="main-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#1e1e2e" markup="true">
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
@@ -124,7 +134,7 @@
   <fontDef name="mechabold-red" ref="mechabold" color="#eba0ac" />
   <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
 
-  <fontDef name="mechabold-fight-buttons" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#b4befe" hinting="Medium" kerning="false" size="14" markup="true" >
+  <fontDef name="mechabold-fight-buttons" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="catpp-pc-accent-color" hinting="Medium" kerning="false" size="14" markup="true" >
     <fontParam if="hover | keyboardFocus | selected" color="#11111b"/>
   </fontDef>  
   <fontDef name="mechabold-fight-buttons2" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Medium" kerning="false" size="14" markup="true" >
@@ -140,13 +150,9 @@
 
   <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#1e1e2e"/>
 
-  <fontDef name="title-font" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1"/>
+  <fontDef name="title-font" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" border_width="1" border_color="#000000" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1"/>
+  <fontDef name="title-font-catppuccin" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="catpp-pc-accent-color" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1"/>
   <fontDef name="title-font-black" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#252525" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
-  <!-- Added custom color for tooltip title -->
-  <fontDef name="title-font-rosewater" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#f5e0dc" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
-  <fontDef name="title-font-flamingo" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#f2cdcd" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
-  <fontDef name="title-font-lavender" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#b4befe" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
-  <fontDef name="title-font-maroon" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#eba0ac" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
 
   <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"/>
 
@@ -159,4 +165,9 @@
 
   <fontDef name="symbols-white" filename="res/fonts/DejaVuLGCSans.ttf" color="#cdd6f4" size="14" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲"/>
   <fontDef name="symbols-black" ref="symbols-white" color="#000000"/>
+
+  <fontDef name="Default White Notif Font" ref="main" color="#cdd6f4"/>
+  <fontDef name="Accent Color Notif Font" ref="main" color="catpp-pc-accent-color"/>
+  <fontDef name="Hide Notif Font" ref="symbols-white"/>
+
 </themes>

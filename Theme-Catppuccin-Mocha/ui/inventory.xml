@@ -30,7 +30,7 @@
                 <int>530</int>
               </param>
               <param name="minHeight">
-                <int>378</int>
+				<constant>catpp-pc-bag-height-constant</constant>
               </param>
 
               <param name="border">
@@ -80,7 +80,7 @@
 	<!-- Inventory Tab Button -->
 	<theme name="inventory-tab-empty" ref="-defaults" allowWildcard="true">
 		 <param name="background"><image>ui-tab-color.background</image></param>
-		 <param name="border"><border>26,0</border></param>
+		 <param name="border"><border>20,0</border></param>
 	</theme>
 
 	<!-- Item Slot -->
@@ -103,6 +103,7 @@
 	</theme>
 
 	<theme name="item-use-dialog-button" ref="-defaults" allowWildcard="true">
+		<param name="background"><image>none</image></param>
 		<param name="font"><font>mechabold</font></param>
 		<param name="font2"><font>pb-dark</font></param>
 		<param name="border"><border>12,15,15,15</border></param>

@@ -295,7 +295,7 @@
   -->
 
   <theme name="encounter-counter-shiny" ref="resizableframe">
-    <param name="background"><image>monster-caught.background</image></param>
+    <param name="background"><constant>catpp-pc-shiny-caught-background-constant</constant></param>
     <param name="border"><border>0,0,0,0</border></param>
 
     <param name="maxWidth"><int>498</int></param>
@@ -322,16 +322,17 @@
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>
       <theme name="cell-large" ref="label">
-        <param name="font"><font>mechabold</font></param>
+        <param name="font"><font>mechabold-orig</font></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
         <param name="border"><border>5</border></param>
       </theme>
       <theme name="cell" ref="label">
+        <param name="font"><font>main-markup-white</font></param>
         <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
         <param name="border"><border>5</border></param>
       </theme>
       <theme name="cell-markup" ref="cell">
-        <param name="font"><font>main-markup</font></param>
+        <param name="font"><font>main-markup-white</font></param>
         <param name="border"><border>5</border></param>
       </theme>
       <theme name="button-reset" ref="button">

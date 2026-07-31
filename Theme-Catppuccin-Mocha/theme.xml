@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+	
+	<include filename="custom-constants.xml"/>
+	<include filename="../custom/shiny-windows/shiny-windows.xml"/>
+	<include filename="../custom/pc-backgrounds/pc-backgrounds.xml"/>
+
 	<!-- Colors and stuff -->
 	<constantDef name="main-theme-color"><color>#6a889b</color></constantDef>
 	<!-- Overrides Button hover and inputbox select -->
-	<constantDef name="main-color"><color>#b4befe</color></constantDef>
-	<constantDef name="sub-color"><color>#b4befe</color></constantDef>
+	<constantDef name="main-color"><constant>catpp-pc-accent-color</constant></constantDef>
+	<constantDef name="sub-color"><constant>catpp-pc-accent-color</constant></constantDef>
 	<constantDef name="tooltip-tint"><color>#FF565D63</color></constantDef>
 
 	<!-- Include Main Theme -->

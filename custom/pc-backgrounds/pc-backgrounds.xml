@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<images file="decrepit-lab.png" filter="nearest">
+		<area name="Decrepit Lab PC" xywh="*"/>
+	</images>
+	<images file="decrepit-lab-filtered.png" filter="nearest">
+		<area name="Decrepit Lab Filtered PC" xywh="*"/>
+	</images>
+	<images file="landscape.png" filter="nearest">
+		<area name="Landscape PC" xywh="*"/>
+	</images>
+	<images file="beach.png" filter="nearest">
+		<area name="Beach PC (Bright)" xywh="*"/>
+	</images>
+
+
+</themes>

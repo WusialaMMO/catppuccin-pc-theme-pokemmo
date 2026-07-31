@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha" version="7.1" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
+<resource name="Theme Catppuccin Mocha" version="8.0" description="A soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/183783-gui-catppuccin-mocha-theme-%F0%9F%91%BE-dark-theme/">
     <themes>
-        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="7" is_mobile="false" sprite_atlas="custom-atlas/main.atlas">
+        <theme path="Theme-Catppuccin-Mocha" name="Catppuccin Mocha" revision="8" is_mobile="false" sprite_atlas="custom-atlas/main.atlas">
             <constants>
+
+                <!-- ACCENT COLORS -->
+                <constant name="catpp-pc-accent-color" public_name="Catppuccin Mocha Options Start&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;Accent Color&#10;" type="CONSTANT" default_value="Lavender Color">
+                    <whitelist_value>Lavender Color</whitelist_value>
+                    <whitelist_value>Rosewater Color</whitelist_value>
+                    <whitelist_value>Flamingo Color</whitelist_value>
+                    <whitelist_value>Pink Color</whitelist_value>
+                    <whitelist_value>Mauve Color</whitelist_value>
+                    <whitelist_value>Red Color</whitelist_value>
+                    <whitelist_value>Maroon Color</whitelist_value>
+                    <whitelist_value>Peach Color</whitelist_value>
+                    <whitelist_value>Yellow Color</whitelist_value>
+                    <whitelist_value>Green Color</whitelist_value>
+                    <whitelist_value>Teal Color</whitelist_value>
+                    <whitelist_value>Sky Color</whitelist_value>
+                    <whitelist_value>Sapphire Color</whitelist_value>
+                    <whitelist_value>Blue Color</whitelist_value>
+                </constant>
 
 
                 <!-- LOGIN BACKGROUNDS -->
-                <constant name="catpp-pc-login-background-constant" public_name="Catpp-PC Login Backgrounds" type="IMAGE" default_value="Default Animation">
+                <constant name="catpp-pc-login-background-constant" public_name="Login Background" type="IMAGE" default_value="Default Animation">
 
                     <!-- DEFAULT ANIMATION -->
                     <whitelist_value>Default Animation</whitelist_value>
@@ -28,10 +46,8 @@
                 </constant>
 
 
-
-
                 <!-- SUMMARY BACKGROUNDS -->
-                <constant name="catpp-pc-summary-constant" public_name="Catpp-PC Summary Backgrounds" type="IMAGE" default_value="Beach Night">
+                <constant name="catpp-pc-summary-constant" public_name="Summary Background" type="IMAGE" default_value="Beach Night">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
                     <whitelist_value>Beach Night</whitelist_value>
@@ -56,13 +72,40 @@
                 </constant>
 
 
+                <!-- POKECENTER PC BACKGROUND -->
+                <constant name="catpp-pc-pc-background-constant" public_name="Pokecenter PC Background" type="IMAGE" default_value="Decrepit Lab PC">
+
+                    <whitelist_value>Decrepit Lab PC</whitelist_value>
+                    <whitelist_value>Decrepit Lab Filtered PC</whitelist_value>
+                    <whitelist_value>Landscape PC</whitelist_value>
+                    <whitelist_value>Beach PC (Bright)</whitelist_value>
+
+                </constant>
+
+
+                <!-- SHINY CAUGHT BACKGROUND -->
+                <constant name="catpp-pc-shiny-caught-background-constant" public_name="Shiny Caught Background" type="IMAGE" default_value="Stars in the Sky">
+
+                    <whitelist_value>Stars in the Sky</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower Field (Bright)</whitelist_value>
+                    <whitelist_value>Purple Sky</whitelist_value>
+                    <whitelist_value>Gray Clouds</whitelist_value>
+                    <whitelist_value>Old Default</whitelist_value>
+
+                </constant>
 
 
                 <!-- ENCOUNTER COUNTERS MINIMIZED -->
-                <constant name="catpp-pc-counter-minimized-constant" public_name="Catpp-PC Enc Counter Minimized" type="IMAGE" default_value="Counter Dark Default">
+                <constant name="catpp-pc-counter-minimized-constant" public_name="Enc Counter Minimized" type="IMAGE" default_value="Night Sky">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
-                    <whitelist_value>Counter Dark Default</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower</whitelist_value>
+                    <whitelist_value>Sunset</whitelist_value>
+                    <whitelist_value>Simple Dark Default</whitelist_value>
+                    <whitelist_value>Simple Rainbow</whitelist_value>
+                    <whitelist_value>Simple Bright Accent Color</whitelist_value>
 
                     <!-- REJUVENATED SUMMARIES -->
                     <whitelist_value>Aggron (Vartiou)</whitelist_value>
@@ -78,15 +121,18 @@
                     <whitelist_value>Volcarona (Vartiou)</whitelist_value>
                     
                 </constant>
-
-
 
 
                 <!-- ENCOUNTER COUNTERS MAXIMIZED -->
-                <constant name="catpp-pc-counter-maximized-constant" public_name="Catpp-PC Enc Counter Maximized" type="IMAGE" default_value="Counter Dark Default">
+                <constant name="catpp-pc-counter-maximized-constant" public_name="Enc Counter Maximized" type="IMAGE" default_value="Night Sky">
 
 	                <!-- DEFAULT REJUVENATED SUMMARY -->
-                    <whitelist_value>Counter Dark Default</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower</whitelist_value>
+                    <whitelist_value>Sunset</whitelist_value>
+                    <whitelist_value>Simple Dark Default</whitelist_value>
+                    <whitelist_value>Simple Rainbow</whitelist_value>
+                    <whitelist_value>Simple Bright Accent Color</whitelist_value>
 
                     <!-- REJUVENATED SUMMARIES -->
                     <whitelist_value>Aggron (Vartiou)</whitelist_value>
@@ -104,13 +150,11 @@
                 </constant>
 
 
-
-
                 <!-- BOTTOM BATTLE HUD BACKGROUND -->
-                <constant name="catpp-pc-battle-hud-constant" public_name="Catpp-PC Battle Hud Background" type="IMAGE" default_value="Fully Transparent">
+                <constant name="catpp-pc-battle-hud-constant" public_name="Battle Hud Background" type="IMAGE" default_value="Hide Battle Hud">
 
 	                <!-- DEFAULT TRANSPARENT BATTLE HUD -->
-                    <whitelist_value>Fully Transparent</whitelist_value>
+                    <whitelist_value>Hide Battle Hud</whitelist_value>
 
                     <!-- OTHER BATTHE HUDS -->
                     <whitelist_value>Border</whitelist_value>
@@ -121,6 +165,64 @@
                     <whitelist_value>No Border Solid</whitelist_value>
                    
                 </constant>
+
+
+                <!-- BAG HEIGHT -->
+                <constant name="catpp-pc-bag-height-constant" public_name="&#10;Bag Height&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;• 378 = Bag Original Height (100%)&#10;• 567 = x1.5 Height (150%)&#10;• 756 = x2 Height (200%)&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;☆ Note: Re-open bag for&#10;changes to take effect ☆&#10;" type="INT" default_value="567">
+
+	                <!-- DEFAULT THEME HEIGHT -->
+                    <whitelist_value><int>378</int></whitelist_value>
+
+                    <!-- 1.5x AND 2x OPTIONS -->
+                    <whitelist_value><int>567</int></whitelist_value>
+                    <whitelist_value><int>756</int></whitelist_value>
+                   
+                </constant>
+
+
+                <!-- DEX HEIGHT -->
+                <constant name="catpp-pc-dex-height-constant" public_name="&#10;Dex Height&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;• 250 = Dex Original Height (5 Rows)&#10;• 405 = 8 Rows&#10;• 610 = 12 Rows&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;☆ Note: Re-open dex for&#10;changes to take effect ☆&#10;" type="INT" default_value="405">
+
+	                <!-- DEFAULT DEX HEIGHT -->
+                    <whitelist_value><int>250</int></whitelist_value>
+
+                    <!-- 8 ROWS -->
+                    <whitelist_value><int>405</int></whitelist_value>
+                    <!-- 12 ROWS -->
+                    <whitelist_value><int>610</int></whitelist_value>
+                   
+                </constant>
+
+
+                <!-- NOTIFICATION BACKGROUND -->
+                <constant name="catpp-pc-notif-background" public_name="Notification Background" type="IMAGE" default_value="Show Notif Background">
+
+                    <whitelist_value>Show Notif Background</whitelist_value>
+                    <whitelist_value>Hide Notif Background</whitelist_value>
+                   
+                </constant>
+
+
+                <!-- NOTIFICATION FONT -->
+                <constant name="catpp-pc-notif-font" public_name="&#10;Notification Font&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;⚠ WARNING: HIDING THE&#10;NOTIFICATIONS WILL ALSO&#10;HIDE SOME IMPORTANT NOTIFS ⚠&#10;" type="FONT" default_value="Default White Notif Font">
+
+                    <whitelist_value>Default White Notif Font</whitelist_value>
+                    <whitelist_value>Accent Color Notif Font</whitelist_value>
+                    <whitelist_value>Hide Notif Font</whitelist_value>
+                   
+                </constant>
+
+
+                <!-- CHAT COLORS -->
+                <constant name="catpp-pc-chat-team-color"			public_name="Chat Color: Team"	    type="COLOR" default_value="#ff8484"/>
+                <constant name="catpp-pc-chat-link-color"			public_name="Chat Color: Link"	    type="COLOR" default_value="#00e6b8"/>
+                <constant name="catpp-pc-chat-whisper-color"		public_name="Chat Color: Whisper"	type="COLOR" default_value="#a6e3a1"/>
+                <constant name="catpp-pc-chat-battle-color"			public_name="Chat Color: Battle"	type="COLOR" default_value="#f4fc9a"/>
+                <constant name="catpp-pc-chat-trade-color"			public_name="Chat Color: Trade"	    type="COLOR" default_value="#FF99FF"/>
+                <constant name="catpp-pc-chat-global-color"			public_name="Chat Color: Global"	type="COLOR" default_value="#94e2d5"/>
+                <constant name="catpp-pc-chat-channel-color"		public_name="Chat Color: Channel"	type="COLOR" default_value="#f0cf81"/>
+                <constant name="catpp-pc-chat-normal-color"		    public_name="Chat Color: Normal"    type="COLOR" default_value="#cdd6f4"/>
+                <constant name="catpp-pc-chat-shout-color"			public_name="Chat Color: Shout&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;Catppuccin Mocha Options End"	    type="COLOR" default_value="#FF9900"/>
 
                 
             </constants>

@@ -2,8 +2,23 @@
 <themes>
 
 	<!-- DEFAULT ENC COUNTER -->
+	<images file="night-sky.png" filter="nearest">
+		<area name="Night Sky" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+	<images file="flower.png" filter="nearest">
+		<area name="Flower" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+	<images file="sunset.png" filter="nearest">
+		<area name="Sunset" xywh="*" inset="-17,-17,0,0"/>
+	</images>
 	<images file="counter-theme-default.png" filter="nearest">
-		<area name="Counter Dark Default" xywh="*" inset="-17,-17,0,0"/>
+		<area name="Simple Dark Default" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+	<images file="counter-theme-rainbow.png" filter="nearest">
+		<area name="Simple Rainbow" xywh="*" inset="-17,-17,0,0"/>
+	</images>
+	<images file="counter-theme-accent-color.png" filter="nearest">
+		<area name="Simple Bright Accent Color" xywh="*" inset="-17,-17,0,0" tint="catpp-pc-accent-color"/>
 	</images>
 
 	<!-- VARTIOU ENC COUNTER -->
@@ -40,7 +55,6 @@
     <images file="vartiou-volcarona.png" filter="nearest">
 		<area name="Volcarona (Vartiou)" xywh="*" inset="-17,-17,0,0"/>
 	</images>
-
 
 	<theme name="encounter-counter-expanded" ref="encounter-counter">
 		<param name="background"><constant>catpp-pc-counter-maximized-constant</constant></param>
